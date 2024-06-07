@@ -1,0 +1,7 @@
+{
+  "name": "gta-helper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
