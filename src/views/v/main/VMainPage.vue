@@ -1,20 +1,15 @@
+<script setup lang="ts">
+import {IonHeader, IonTitle, IonToolbar} from '@ionic/vue'
+import GtaHelperContent from "@/components/page/GtaHelperPage.vue"
+</script>
+
 <template>
-    <ion-page>
+    <gta-helper-content>
         <ion-header>
             <ion-toolbar>
                 <ion-title>V</ion-title>
             </ion-toolbar>
         </ion-header>
-        <ion-content :fullscreen="true">
-            <ion-header collapse="condense">
-                <ion-toolbar>
-                    <ion-title size="large">V Main Develop In Progress</ion-title>
-                </ion-toolbar>
-            </ion-header>
-        </ion-content>
-    </ion-page>
+        <ion-title size="large">V Develop In Progress</ion-title>
+    </gta-helper-content>
 </template>
-
-<script setup lang="ts">
-import {IonPage, IonHeader, IonToolbar, IonTitle, IonContent} from '@ionic/vue'
-</script>
