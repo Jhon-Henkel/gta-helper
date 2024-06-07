@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {IonHeader, IonTitle, IonToolbar, IonIcon, IonItem} from '@ionic/vue'
-import GtaHelperContent from '@/components/page/GtaHelperPage.vue'
+import GtaHelperPage from '@/components/page/GtaHelperPage.vue'
 import GtaHelperListContent from '@/components/list/GtaHelperListContent.vue'
 import router from "@/router"
 
@@ -120,19 +120,23 @@ function goToRoute(routeName: string) {
 </script>
 
 <template>
-    <gta-helper-content>
-        <ion-header>
-            <ion-toolbar>
-                <ion-title>San Andreas</ion-title>
-            </ion-toolbar>
-        </ion-header>
-        <gta-helper-list-content>
-            <template v-slot:list>
-                <ion-item v-for="(item, index) in MenuItems" :key="index" button @click="goToRoute(item.routeName)">
-                    <ion-icon :name="item.icon" slot="start"/>
-                    {{ item.label }}
-                </ion-item>
-            </template>
-        </gta-helper-list-content>
-    </gta-helper-content>
+    <gta-helper-page>
+        <template v-slot:header>
+            <ion-header>
+                <ion-toolbar>
+                    <ion-title>San Andreas</ion-title>
+                </ion-toolbar>
+            </ion-header>
+        </template>
+        <template v-slot:content>
+            <gta-helper-list-content>
+                <template v-slot:list>
+                    <ion-item v-for="(item, index) in MenuItems" :key="index" button @click="goToRoute(item.routeName)">
+                        <ion-icon :name="item.icon" slot="start"/>
+                        {{ item.label }}
+                    </ion-item>
+                </template>
+            </gta-helper-list-content>
+        </template>
+    </gta-helper-page>
 </template>

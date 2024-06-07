@@ -5,8 +5,10 @@ import {IonLabel, IonList} from '@ionic/vue'
 
 <template>
     <gta-helper-page>
-        <ion-list class="ion-text-center">
-            <ion-label>Em Desenvolvimento</ion-label>
-        </ion-list>
+        <template v-slot:content>
+            <ion-list class="ion-text-center">
+                <ion-label>Em Desenvolvimento</ion-label>
+            </ion-list>
+        </template>
     </gta-helper-page>
 </template>

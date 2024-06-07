@@ -4,8 +4,9 @@ import {IonContent, IonPage} from '@ionic/vue'
 
 <template>
     <ion-page>
+        <slot name="header"/>
         <ion-content :fullscreen="true">
-            <slot/>
+            <slot name="content"/>
         </ion-content>
     </ion-page>
 </template>
