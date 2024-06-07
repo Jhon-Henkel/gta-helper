@@ -12,15 +12,23 @@ const routes: Array<RouteRecordRaw> = [
                 redirect: '/sa/main'
             },
             {
+                path: 'in-development',
+                name: 'in-development',
+                component: () => import('../views/temporary/DevelopmentPage.vue')
+            },
+            {
                 path: 'sa/main',
+                name: 'sa-main',
                 component: () => import('../views/sanAndreas/main/SaMainPage.vue')
             },
             {
                 path: 'vc/main',
+                name: 'vc-main',
                 component: () => import('../views/viceCity/main/VcMainPage.vue')
             },
             {
                 path: 'v/main',
+                name: 'v-main',
                 component: () => import('../views/v/main/VMainPage.vue')
             }
         ]
