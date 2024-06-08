@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import {IonHeader, IonTitle, IonToolbar, IonIcon, IonItem} from '@ionic/vue'
+import {IonIcon, IonItem} from '@ionic/vue'
 import GtaHelperPage from '@/components/page/GtaHelperPage.vue'
 import GtaHelperListContent from '@/components/list/GtaHelperListContent.vue'
+import GtaHelperHeader from '@/components/header/GtaHelperHeader.vue'
 import router from "@/router"
 import {saMainMenuItems} from "@/menu/sanAndreas/saMainMenu"
 
@@ -15,11 +16,7 @@ function goToRoute(routeName: string) {
 <template>
     <gta-helper-page>
         <template v-slot:header>
-            <ion-header>
-                <ion-toolbar>
-                    <ion-title>San Andreas</ion-title>
-                </ion-toolbar>
-            </ion-header>
+            <gta-helper-header title="San Andreas"/>
         </template>
         <template v-slot:content>
             <gta-helper-list-content>

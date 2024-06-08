@@ -9,10 +9,10 @@ export const saMainMenuItems: Array<iMenuItem> = [
     {
         routeName: 'in-development',
         icon: 'map',
-        label: 'Coisas Necessárias para o 100%'
+        label: 'Guia para o 100%'
     },
     {
-        routeName: 'in-development',
+        routeName: 'sa-principal-missions',
         icon: 'map',
         label: 'Missões Principais'
     },

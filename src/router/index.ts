@@ -22,6 +22,11 @@ const routes: Array<RouteRecordRaw> = [
                 component: () => import('../views/sanAndreas/main/SaMainPage.vue')
             },
             {
+                path: 'sa/principal-missions',
+                name: 'sa-principal-missions',
+                component: () => import('../views/sanAndreas/missions/principal/SaPrincipalMissionsPage.vue')
+            },
+            {
                 path: 'vc/main',
                 name: 'vc-main',
                 component: () => import('../views/viceCity/main/VcMainPage.vue')
