@@ -1,4 +1,5 @@
 import {iMenuItem} from "@/menu/iMenuItem"
+import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
 export const saMainMenuItems: Array<iMenuItem> = [
     {
@@ -13,7 +14,7 @@ export const saMainMenuItems: Array<iMenuItem> = [
     },
     {
         routeName: 'sa-principal-missions',
-        icon: 'map',
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
         label: 'Missões Principais'
     },
     {
@@ -42,9 +43,9 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Ostras'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Pichações'
+        routeName: 'sa-graffiti',
+        icon: `${iconsDir.sanAndreas}spray.png`,
+        label: 'Grafites'
     },
     {
         routeName: 'in-development',

@@ -13,7 +13,7 @@ import SaLosSantosPartTwo from "@/views/sanAndreas/missions/principal/SaLosSanto
 <template>
     <gta-helper-page>
         <template #header>
-            <gta-helper-header title="San Andreas"/>
+            <gta-helper-header title="San Andreas - Missões Principais"/>
         </template>
         <template #content>
             <ion-content>

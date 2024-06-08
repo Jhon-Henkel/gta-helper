@@ -22,7 +22,7 @@ function goToRoute(routeName: string) {
             <gta-helper-list-content>
                 <template v-slot:list>
                     <ion-item v-for="(item, index) in MenuItems" :key="index" button @click="goToRoute(item.routeName)">
-                        <ion-icon :name="item.icon" slot="start"/>
+                        <ion-img :src="item.icon" slot="start"/>
                         {{ item.label }}
                     </ion-item>
                 </template>
