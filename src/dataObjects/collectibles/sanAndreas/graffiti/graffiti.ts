@@ -1,16 +1,16 @@
 import {ICollectibleItem} from "../../iCollectibleItem"
 
 interface iGraffiti {
-    partOne: Array<ICollectibleItem>
-    partTwo: Array<ICollectibleItem>
-    partTree: Array<ICollectibleItem>
-    partFour: Array<ICollectibleItem>
-    partFive: Array<ICollectibleItem>
-    partSix: Array<ICollectibleItem>
+    saGrafitiPartOne: Array<ICollectibleItem>
+    saGrafitiPartTwo: Array<ICollectibleItem>
+    saGrafitiPartThree: Array<ICollectibleItem>
+    saGrafitiPartFour: Array<ICollectibleItem>
+    saGrafitiPartFive: Array<ICollectibleItem>
+    saGrafitiPartSix: Array<ICollectibleItem>
 }
 
 export const graffiti: iGraffiti = {
-    partOne: [
+    saGrafitiPartOne: [
         {
             number: 1,
             description: "",
@@ -207,7 +207,7 @@ export const graffiti: iGraffiti = {
             collected: false,
         }
     ],
-    partTwo: [
+    saGrafitiPartTwo: [
         {
             number: 17,
             description: "",
@@ -304,7 +304,7 @@ export const graffiti: iGraffiti = {
             collected: false,
         }
     ],
-    partTree: [
+    saGrafitiPartThree: [
         {
             number: 10,
             description: "",
@@ -416,7 +416,7 @@ export const graffiti: iGraffiti = {
             collected: false,
         },
     ],
-    partFour: [
+    saGrafitiPartFour: [
         {
             number: 20,
             description: "",
@@ -458,7 +458,7 @@ export const graffiti: iGraffiti = {
             collected: false,
         },
     ],
-    partFive: [
+    saGrafitiPartFive: [
         {
             number: 38,
             description: "",
@@ -495,7 +495,7 @@ export const graffiti: iGraffiti = {
             collected: false,
         },
     ],
-    partSix: [
+    saGrafitiPartSix: [
         {
             number: 33,
             description: "",
