@@ -1,4 +1,5 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
+import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
 export const badlandsMissions: Array<IMissionItem> = [
     {
@@ -9,7 +10,7 @@ export const badlandsMissions: Array<IMissionItem> = [
             "chamar a atenção dos guardas, se chamar a atenção deles o agente vai fugir e a missão será mais " +
             "difícil. Mate-o e fotografe o corpo, depois leve a câmera de volta para o trailer.",
         rewards: "Nada",
-        icon: "crash.jpg",
+        icon: `${iconsDir.sanAndreas}crash.jpg`,
     },
     {
         title: "30 - Primeiro Encontro",
@@ -22,7 +23,7 @@ export const badlandsMissions: Array<IMissionItem> = [
             "mapa. A partir de agora você poderá fazer missões de caminhoneiro nessa garagem, como será explicado " +
             "mais tarde.",
         rewards: "$5.000 e Missões de caminhoneiro desbloqueadas",
-        icon: "interrogation.jpg",
+        icon: `${iconsDir.sanAndreas}interrogation.jpg`,
     },
     {
         title: "31 - Colheita de Corpos",
@@ -30,14 +31,14 @@ export const badlandsMissions: Array<IMissionItem> = [
             "uma missão, vá até o motel em Angel Pine. Depois da conversa siga para a fazenda indicada e roube a " +
             "colheitadeira, cuidado com os caipiras armados. Leve a colheitadeira para a fazenda de Truth.",
         rewards: "Respeito",
-        icon: "truth.jpg",
+        icon: `${iconsDir.sanAndreas}truth.jpg`,
     },
     {
         title: "32 - Rei do Exílio",
         description: "Depois da conversa com César no trailer, atenda o telefonema histérico de Catalina e vá até a " +
             "cabana dela para continuar os assaltos",
         rewards: "Nada",
-        icon: "cesarVialpando.jpg",
+        icon: `${iconsDir.sanAndreas}cesarVialpando.jpg`,
     },
     {
         title: "33 - Primeiro Encontro",
@@ -49,7 +50,7 @@ export const badlandsMissions: Array<IMissionItem> = [
             "continue perseguindo os que sobraram até pegar todas as malas. Depois do serviço feito, leve Catalina " +
             "de volta pra casa.",
         rewards: "$1.000",
-        icon: "catalina.jpg",
+        icon: `${iconsDir.sanAndreas}catalina.jpg`,
     },
     {
         title: "34 - Preliminares",
@@ -60,7 +61,7 @@ export const badlandsMissions: Array<IMissionItem> = [
             "Corra para o Pay n’ Spray indicado no mapa para pintar o carro e despistar a polícia. Depois é só levar " +
             "Catalina de volta pra casa.",
         rewards: "$2.000",
-        icon: "catalina.jpg",
+        icon: `${iconsDir.sanAndreas}catalina.jpg`,
     },
     {
         title: "35 - Par Perfeito",
@@ -71,7 +72,7 @@ export const badlandsMissions: Array<IMissionItem> = [
             "motos, fuja pra casa com Catalina. Quando Catalina for cercada chegue perto dela pra ela subir na moto, " +
             "depois a leve pra casa em segurança.",
         rewards: "$10.000",
-        icon: "catalina.jpg",
+        icon: `${iconsDir.sanAndreas}catalina.jpg`,
     },
     {
         title: "36 - Wu Zi Mu",
@@ -80,7 +81,7 @@ export const badlandsMissions: Array<IMissionItem> = [
             "Woozie você entrara na corrida. Cuidado com os penhascos e curvas. Ganhe em 1º lugar para receber o " +
             "prêmio e uma nova corrida no mesmo local.",
         rewards: "$5.000",
-        icon: "cesarVialpando.jpg",
+        icon: `${iconsDir.sanAndreas}cesarVialpando.jpg`,
     },
     {
         title: "37 - Adeus, meu amor",
@@ -88,7 +89,7 @@ export const badlandsMissions: Array<IMissionItem> = [
             "GTA III, depois da discussão entre na corrida e ganhe em 1º lugar para ganhar um posto de gasolina " +
             "falido em San Fierro de prêmio.",
         rewards: "Um Posto em San Fierro",
-        icon: "cesarVialpando.jpg",
+        icon: `${iconsDir.sanAndreas}cesarVialpando.jpg`,
     },
     {
         title: "38 - Você está indo para San Fierro?",
@@ -96,6 +97,6 @@ export const badlandsMissions: Array<IMissionItem> = [
             "na frente da cabana. Em seguida pegue o lança-mísseis e derrube o helicóptero. Depois entre na Camper e " +
             "leve Truth para o posto em San Fierro.",
         rewards: "Nada",
-        icon: "truth.jpg",
+        icon: `${iconsDir.sanAndreas}truth.jpg`,
     }
 ]

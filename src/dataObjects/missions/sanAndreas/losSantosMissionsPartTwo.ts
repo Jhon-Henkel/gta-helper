@@ -1,4 +1,5 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
+import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
 export const losSantosMissionsPartTwo: Array<IMissionItem> = [
     {
@@ -16,7 +17,7 @@ export const losSantosMissionsPartTwo: Array<IMissionItem> = [
             "pra atirar). Depois siga até as lanchas e destrua elas. Logo após vá para o aeroporto e pouse o avião " +
             "dentro do hangar.",
         rewards: "$50.000 e um caça Hydra no aeródromo de Verdant Meadows",
-        icon: "cj.jpg",
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
     },
     {
         title: "79 - De Volta Ao Lar",
@@ -25,7 +26,7 @@ export const losSantosMissionsPartTwo: Array<IMissionItem> = [
             "que estão ali por perto. Depois mate alguns gangsters para provocar uma guerra. Elimine todos pra " +
             "conquistar seu território de novo.",
         rewards: "Respeito",
-        icon: "cj.jpg",
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
     },
     {
         title: "80 - Negócio Acirrado",
@@ -33,14 +34,14 @@ export const losSantosMissionsPartTwo: Array<IMissionItem> = [
             "siga-o desviando dos barcos. Chegando no píer, ele vai fugir de kart, persiga-o pelas ruas de Los " +
             "Santos até o estúdio dele e pegar o livro de rimas de Dog de volta.",
         rewards: "Respeito",
-        icon: "cj.jpg",
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
     },
     {
         title: "81 - Porrada no B-Dup",
         description: "Vá com sweet até a casa de B-Dup, como ele se mudou, siga para Glen Park. Chegando lá mate " +
             "alguns “Ballas” para começar uma guerra, resista a eles e mate os gangsters na casa de B-Dup e entre.",
         rewards: "Respeito",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "82 - Grove na Veia",
@@ -48,7 +49,7 @@ export const losSantosMissionsPartTwo: Array<IMissionItem> = [
             "chegando lá mate alguns gangsters pra começar a guerra. Mate todos que vierem pra ganhar o quarteirão. " +
             "Faça isso 3 vezes, depois leve Sweet pra casa pra completar a missão.",
         rewards: "Respeito e $10.000",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "83 - Tumulto",
@@ -58,7 +59,7 @@ export const losSantosMissionsPartTwo: Array<IMissionItem> = [
             "explodem carros, brigam, colocam fogo nas casas e ruas, um verdadeiro caos! Leve Sweet pra casa, tomando " +
             "cuidado para não morrer no meio do caminho!",
         rewards: "Nada",
-        icon: "cj.jpg",
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
     },
     {
         title: "84 - Los Desesperados",
@@ -67,7 +68,7 @@ export const losSantosMissionsPartTwo: Array<IMissionItem> = [
             "César, vá matando os inimigos que vem pela frente. No final, cuidado com o gangster que tem a " +
             "“bazooka”. Mate todos os inimigos para recuperar o território de César e passar a missão.",
         rewards: "Respeito",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "85 - Fim da Linha",
@@ -84,6 +85,6 @@ export const losSantosMissionsPartTwo: Array<IMissionItem> = [
             "você tem que atirar nos policiais e gangsters que seguirem você (não adianta atirar no caminhão, " +
             "porque ele não explode). Quando Tenpenny cai da ponte, a missão estará terminada.",
         rewards: "Respeito. A barra de respeito está no máximo agora",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
 ]

@@ -1,4 +1,5 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
+import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
 export const sanFierroMissions: Array<IMissionItem> = [
     {
@@ -6,7 +7,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
         description: "Pegue o carro e vá com Truth aos locais indicados no mapa, chegando nos locais, aperte L3 para " +
             "buzinar e Truth convida seus amigos para ajudar na reforma do posto.",
         rewards: "Nada",
-        icon: "cj.jpg",
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
     },
     {
         title: "40 - 555 Disque Denúncia",
@@ -18,7 +19,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "carro, senão você terá que levá-lo de volta para a garagem e vai perder muito tempo). Depois que " +
             "CJ telefona para a polícia falando do carro, é só apreciar a prisão do cara.",
         rewards: "Nada",
-        icon: "cj.jpg",
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
     },
     {
         title: "41 - Desconstrução",
@@ -29,7 +30,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "empurre ele pra dentro do buraco, vá de ré com o caminhão de cimento para tampar o buraco e enterrar o " +
             "engenheiro.",
         rewards: "Nada",
-        icon: "cj.jpg",
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
     },
     {
         title: "42 - Oportunidade de Foto",
@@ -37,7 +38,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "para Angel Pine. Chegando lá suba no telhado, e tire fotos do rosto dos bandidos que forem chegando " +
             "para a reunião secreta. São eles: Ryder, T-Bone Mendez, Jizzy e Mike Toreno.",
         rewards: "Respeito",
-        icon: "cesarVialpando.jpg",
+        icon: `${iconsDir.sanAndreas}cesarVialpando.jpg`,
     },
     {
         title: "43 - Jizzy",
@@ -47,14 +48,14 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "um gigolô concorrente dele. Depois vá para debaixo dos viadutos para salvar uma das garotas de Jizzy " +
             "que está sendo espancada e volte para o hotel onde deixou a puta, siga e destrua a limusine e sua escolta.",
         rewards: "$5.000",
-        icon: "jizzy.jpg",
+        icon: `${iconsDir.sanAndreas}jizzy.jpg`,
     },
     {
         title: "44 - T-Bone Mendez",
         description: "Vá até o local onde uns motoqueiros estão roubando um furgão. Siga-os, encoste bem perto " +
             "deles e aperte L1 para CJ pegar os pacotes nas motos. Leve os pacotes de volta para o clube.",
         rewards: "Respeito e $5.000",
-        icon: "jizzy.jpg",
+        icon: `${iconsDir.sanAndreas}jizzy.jpg`,
     },
     {
         title: "45 - Mike Toreno",
@@ -66,7 +67,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "enormes, entre eles tem um lança-mísseis, use-o para explodir o furgão), depois pegue um carro e fuja " +
             "com Mike e T-Bone para fora do aeroporto, pinte seu carro para escapar dos “mega” e volte para o clube.",
         rewards: "Respeito e $7.000",
-        icon: "jizzy.jpg",
+        icon: `${iconsDir.sanAndreas}jizzy.jpg`,
     },
     {
         title: "46 - Galera da Mountain Cloud",
@@ -74,14 +75,14 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "no lugar. A gangue volta para atacar novamente e você terá que enfrentá-los, mate todos e pegue o carro " +
             "para escapar. Quando você sair virão 2 carros inimigos, destrua-os e leve Woozie de volta pra casa.",
         rewards: "Respeito e $5.000",
-        icon: "woozie.jpg",
+        icon: `${iconsDir.sanAndreas}woozie.jpg`,
     },
     {
         title: "47 - Ran Fa Li",
         description: "Vá até o aeroporto e pegue o carro que está no estacionamento no subsolo. Desvie dos inimigos " +
             "e leve o carro para a garagem indicada sem danificar muito o carro.",
         rewards: "Respeito e $6.000",
-        icon: "woozie.jpg",
+        icon: `${iconsDir.sanAndreas}woozie.jpg`,
     },
     {
         title: "48 - Isca",
@@ -89,7 +90,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "cuidado com os motoqueiros para eles não explodirem seu carro. Chegando no posto no final dos " +
             "checkpoints você passa a missão.",
         rewards: "Respeito e $8.000",
-        icon: "woozie.jpg",
+        icon: `${iconsDir.sanAndreas}woozie.jpg`,
     },
     {
         title: "49 - Assalto Anfíbio",
@@ -102,7 +103,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "modo stealth para matar os guardas, ou senão vá no braço mesmo! Chegue até dentro do navio para " +
             "sabotá-lo (aperte triângulo). Depois salte fora e nade até o local indicado.",
         rewards: "Respeito e $11.000",
-        icon: "woozie.jpg",
+        icon: `${iconsDir.sanAndreas}woozie.jpg`,
     },
     {
         title: "50 - A Gangue da Nang",
@@ -112,7 +113,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "e mate o espadachim como um verdadeiro Samurai. Depois vá até os reféns de novo para escapar e terminar " +
             "a missão.",
         rewards: "Respeito e $15.000",
-        icon: "woozie.jpg",
+        icon: `${iconsDir.sanAndreas}woozie.jpg`,
     },
     {
         title: "51 - Batedor",
@@ -120,7 +121,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "lança-mísseis e a sniper e suba na moto. Vá na frente desbloqueando o caminho para a van passar, " +
             "depois de destruir os 3 bloqueios siga com a van até a fábrica.",
         rewards: "Respeito e $9.000",
-        icon: "triads_red.jpg",
+        icon: `${iconsDir.sanAndreas}triads_red.jpg`,
     },
     {
         title: "52 - No Rastro da Lesma",
@@ -130,7 +131,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "Quando ele entrar no táxi pegue um carro e siga-o pelas ruas de Los Santos. Ao chegar no píer ele sai " +
             "para falar com outro cara, use a sniper para eliminar os 2.",
         rewards: "Nada",
-        icon: "crash.jpg",
+        icon: `${iconsDir.sanAndreas}crash.jpg`,
     },
     {
         title: "53 - Sangue Frio",
@@ -138,7 +139,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "mundo dentro do clube, quando Jizzy fugir pegue um carro, siga e destrua o carro dele para matá-lo. " +
             "Quando ele morrer pegue o telefone dele.",
         rewards: "Respeito e $12.000",
-        icon: "triads_red.jpg",
+        icon: `${iconsDir.sanAndreas}triads_red.jpg`,
     },
     {
         title: "54 - Pier 69",
@@ -148,7 +149,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "Ryder pular na água nade atrás dele. Depois suba na lancha e destrua a lancha de Ryder para ele morrer. " +
             "É o fim de Ryder, um amigo que traiu e teve o fim que mereceu.",
         rewards: "Respeito e $15.000",
-        icon: "triads_red.jpg",
+        icon: `${iconsDir.sanAndreas}triads_red.jpg`,
     },
     {
         title: "55 - O Último Voo do Toreno",
@@ -157,7 +158,7 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "não der certo, desça pegue a moto e siga o helicóptero. Vá mais na frente desça da moto, espere o " +
             "helicóptero passar por você e atire nele até ele explodir e você passar a missão.",
         rewards: "Respeito e $15.000",
-        icon: "triads_red.jpg",
+        icon: `${iconsDir.sanAndreas}triads_red.jpg`,
     },
     {
         title: "56 - Cabum",
@@ -167,6 +168,6 @@ export const sanFierroMissions: Array<IMissionItem> = [
             "portão está fechado pegue o carro dos bandidos e salte pela rampa em direção da rua. Logo depois volte " +
             "para a garagem para completar a missão.",
         rewards: "Respeito e $25.000",
-        icon: "triads_red.jpg",
+        icon: `${iconsDir.sanAndreas}triads_red.jpg`,
     },
 ]

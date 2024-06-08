@@ -1,4 +1,5 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
+import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
 export const lasVenturasMissions: Array<IMissionItem> = [
     {
@@ -7,7 +8,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "isso dê cavalinhos-de-pau, acelere ao máximo, vá pela contramão, use e abuse de tudo para ele borrar " +
             "as calças! Só cuidado para não matar ele, depois que a barra de pânico encher volte para o casino.",
         rewards: "Respeito e $5.000",
-        icon: "triads_yellow.jpg",
+        icon: `${iconsDir.sanAndreas}triads_yellow.jpg`,
     },
     {
         title: "66 - Situação Explosiva",
@@ -16,7 +17,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "para saltar de uma em uma até sair fora. Depois leve as dinamites pra um empregado de Woozie que está " +
             "esperando logo a frente.",
         rewards: "Respeito e $7.000",
-        icon: "triads_yellow.jpg",
+        icon: `${iconsDir.sanAndreas}triads_yellow.jpg`,
     },
     {
         title: "67 - Operação de Fichinha",
@@ -27,7 +28,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "guardas (cuidado ao sair do depósito, tem um guarda sobre o container com um 12 muito forte) pegue o " +
             "carro que está bem na entrada do depósito, vire e saia correndo para a garagem do casino.",
         rewards: "Respeito e $10.000",
-        icon: "triads_yellow.jpg",
+        icon: `${iconsDir.sanAndreas}triads_yellow.jpg`,
     },
     {
         title: "68 - Don Peyote",
@@ -36,7 +37,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "o casino, quando chegar lá mate os caipiras que te seguiram. Na cena seguinte você conhece Ken " +
             "Rosemberg (outro conhecido de Vice City).",
         rewards: "Respeito",
-        icon: "triads_yellow.jpg",
+        icon: `${iconsDir.sanAndreas}triads_yellow.jpg`,
     },
     {
         title: "69 - Terapia Intensiva",
@@ -45,7 +46,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "não a destrua, bata nela até o motorista e o carona saírem fora, mate-os e pegue a ambulância. Leve " +
             "Johnny para a fábrica de carne.",
         rewards: "Respeito e $5.000",
-        icon: "ken.jpg",
+        icon: `${iconsDir.sanAndreas}ken.jpg`,
     },
     {
         title: "70 - O Negócio da Carne",
@@ -53,7 +54,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "alguns caras botam fogo na fábrica. Pegue o extintor na sala ao lado, mate os caras e apague o fogo, " +
             "vá seguindo matando os caras até a saída. Leve Ken de volta para o casino para completar a missão.",
         rewards: "Respeito e $8.000",
-        icon: "ken.jpg",
+        icon: `${iconsDir.sanAndreas}ken.jpg`,
     },
     {
         title: "71 - Madd Dog",
@@ -62,7 +63,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "Acelere e dê a ré para ficar bem na direção onde Madd Dog vai pular. Depois o leve para o hospital antes " +
             "que ele morra.",
         rewards: "Respeito",
-        icon: "maddDog.jpg",
+        icon: `${iconsDir.sanAndreas}maddDog.jpg`,
     },
     {
         title: "72 - Apropriação Indevida",
@@ -71,14 +72,14 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "tente matá-lo de novo, se não conseguir mesmo assim, persiga-o de carro até conseguir matá-lo e passar " +
             "a missão.",
         rewards: "Nada",
-        icon: "crash.jpg",
+        icon: `${iconsDir.sanAndreas}crash.jpg`,
     },
     {
         title: "73 - Peixe No Aquário",
         description: "Entre no casino para assinar um contrato de parceria com Woozie e Ran Fa Li, essa missão " +
             "não tem objetivos.",
         rewards: "Nada",
-        icon: "triads_yellow.jpg",
+        icon: `${iconsDir.sanAndreas}triads_yellow.jpg`,
     },
     {
         title: "74 - Queda Livre",
@@ -89,7 +90,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "todos os policiais dentro do avião. Depois de CJ tomar o controle do avião, pilote até o aeroporto e " +
             "pouse.",
         rewards: "Respeito e $15.000",
-        icon: "ken.jpg",
+        icon: `${iconsDir.sanAndreas}ken.jpg`,
     },
     {
         title: "75 - Matar ou Morrer",
@@ -98,7 +99,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "mate-o para completar a missão. Pronto! Eddie Pulaski, um policial corrupto e mau caráter está " +
             "eliminado e não fará falta pra ninguém!",
         rewards: "Menos um inimigo pra encher o saco!",
-        icon: "crash.jpg",
+        icon: `${iconsDir.sanAndreas}crash.jpg`,
     },
     {
         title: "76 - Bistrô de Saint Mark",
@@ -107,7 +108,7 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "os capangas dele dentro do bar, desça até a cozinha e depois na área de fora mate Forelli, volte para " +
             "Las Venturras e pouse no aeroporto.",
         rewards: "Respeito e $20.000",
-        icon: "ken.jpg",
+        icon: `${iconsDir.sanAndreas}ken.jpg`,
     },
     {
         title: "77 - Uma Lar Nas Colinas",
@@ -116,6 +117,6 @@ export const lasVenturasMissions: Array<IMissionItem> = [
             "vierem e entre na mansão. Vá matando todos lá dentro até chegar no chefão: o Big Poppa. Siga-o até fora " +
             "da mansão, quando ele pegar o carro siga ele até matá-lo.",
         rewards: "Respeito",
-        icon: "triads_yellow.jpg",
+        icon: `${iconsDir.sanAndreas}triads_yellow.jpg`,
     }
 ]

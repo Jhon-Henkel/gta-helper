@@ -1,4 +1,5 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
+import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
 export const losSantosMissionsPartOne: Array<IMissionItem> = [
     {
@@ -7,14 +8,14 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "repetidamente para pedalar mais rápido. Chegando lá Smoke dará as boas vindas e te levará para o " +
             "cemitério, onde todos estão esperando",
         rewards: "Nenhuma",
-        icon: "cj.jpg",
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
     },
     {
         title: "2 - Sweet & Kendl",
         description: "Depois da discussão em família uma gangue vem atacar você. Nessa missão não encare a gangue, " +
             "atravesse a rua e suba na bicicleta, siga seus amigos, fugindo do carro da gangue inimiga, até a sua casa.",
         rewards: "Respeito, Casa dos Johnsons",
-        icon: "cj.jpg",
+        icon: `${iconsDir.sanAndreas}cj.jpg`,
     },
     {
         title: "3 - Ryder",
@@ -22,7 +23,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "pizzaria do outro lado da rua e peça uma pizza. Depois da tentativa frustrada de roubo fuja com Ryder " +
             "de volta para a Grove Street.",
         rewards: "Respeito, barbearias, restaurantes e estúdios de tatuagens desbloqueados",
-        icon: "rider.jpg",
+        icon: `${iconsDir.sanAndreas}rider.jpg`,
     },
     {
         title: "4 - Marcando Território",
@@ -32,7 +33,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "piche a parede, depois no outro lado da rua pule as cercas e a caixa, suba no telhado do prédio para a " +
             "última pichação. Pule para o carro e fuja pra casa.",
         rewards: "Respeito, lata de spray na casa dos Johnsons",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "5 - Limpando as Ruas",
@@ -41,14 +42,14 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "Depois de matá-lo siga para a casa indicada do outro lado dos trilhos e mate todos lá dentro. " +
             "Depois do trabalho feito, volte pra casa.",
         rewards: "Respeito",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "6 - Drive Thru",
         description: "Dirija até a lanchonete. Um carro dos Ballas passa provocando, siga os gangsters folgados bem " +
             "de perto para que seus amigos possam atirar até explodir o carro deles. Depois leve todos de volta pra casa",
         rewards: "Respeito, $200 e academias desbloqueadas",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "7 - Noves e AK's",
@@ -56,7 +57,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "atirar, R2 e L2 para trocar os alvos e L3 para agachar e melhorar a precisão dos tiros. Depois atire no " +
             "tanque do carro para explodi-lo.",
         rewards: "Respeito, Loja de armas do Emmet e Lojas de roupas desbloqueadas",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "8 - Tiroteio de veículo",
@@ -64,7 +65,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "consigam matá-los. Para facilitar atropele os gangsters também. Depois pinte seu carro para despistar " +
             "a polícia e volte para o beco.",
         rewards: "Respeito e $500",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "9 - Garota do Sweet",
@@ -72,7 +73,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "Arrume um carro de 4 portas e leve Sweet e sua namorada em segurança de volta pra casa. Cuidado com os " +
             "carros da gangue inimiga.",
         rewards: "Respeito",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "10 - César Vialpando",
@@ -80,7 +81,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "participe da competição apostando uma grana.(aperte quadrado para incrementar a aposta e X para tirar " +
             "grana da aposta).Siga as direções no botão R3 indicados na tela quando passarem pelo círculo.",
         rewards: "O dobro do que você apostou na competição e oficinas desbloqueadas",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "11 - Invasão Domiciliar",
@@ -89,7 +90,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "quarto), ande bem devagar (L3) para não acordar o dono da casa. Quando terminar siga para a garagem " +
             "indicada. A partir de agora você poderá roubar casas, como vai ser explicado mais para frente.",
         rewards: "Respeito e missões de invasão domiciliar desbloqueadas",
-        icon: "rider.jpg",
+        icon: `${iconsDir.sanAndreas}rider.jpg`,
     },
     {
         title: "12 - Catalisador",
@@ -97,7 +98,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "e suba no trem. Segure O ou L1 para arremessar as caixas para Ryder. Depois pinte seu carro para escapar " +
             "da polícia e volte pra casa.",
         rewards: "Respeito",
-        icon: "rider.jpg",
+        icon: `${iconsDir.sanAndreas}rider.jpg`,
     },
     {
         title: "13 - Roubando o Tio Sam",
@@ -106,21 +107,21 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "da empilhadeira, pegue todas as caixas dentro e fora do depósito e coloque dentro do furgão. Depois " +
             "siga para a casa de Emmet para completar a missão.",
         rewards: "Respeito",
-        icon: "rider.jpg",
+        icon: `${iconsDir.sanAndreas}rider.jpg`,
     },
     {
         title: "14 - OG Loc",
         description: "Vá a delegacia pegar OG Loc, depois leve ele para acertar contas com um velho conhecido. Siga " +
             "o fujão com a moto até ele parar numa praça. Mate-o e leve OG Loc para a lanchonete indicada no mapa.",
         rewards: "Respeito",
-        icon: "bigSmoke.jpg",
+        icon: `${iconsDir.sanAndreas}bigSmoke.jpg`,
     },
     {
         title: "15 - Cão em Fuga",
         description: "Siga para o encontro com os mexicanos no local indicado no mapa. Chegando lá, Big Smoke mata " +
             "um e o outro foge. Persiga-o e mate-o.",
         rewards: "Respeito",
-        icon: "bigSmoke.jpg",
+        icon: `${iconsDir.sanAndreas}bigSmoke.jpg`,
     },
     {
         title: "16 - Do Lado Errado dos Trilhos",
@@ -128,7 +129,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "para que Big Smoke possa atirar nos gangsters em cima do trem. Cuidado com os obstáculos no caminho. " +
             "Serviço terminado, de volta pra casa.",
         rewards: "Respeito",
-        icon: "bigSmoke.jpg",
+        icon: `${iconsDir.sanAndreas}bigSmoke.jpg`,
     },
     {
         title: "17 - Apenas Negócios",
@@ -136,14 +137,14 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "dentro e fora do prédio. Smoke vai dirigindo a moto e você terá que atirar nos carros e motos que irão " +
             "te perseguir. As cenas entre a missão são muito locas!",
         rewards: "Respeito",
-        icon: "bigSmoke.jpg",
+        icon: `${iconsDir.sanAndreas}bigSmoke.jpg`,
     },
     {
         title: "18 - Grande Prêmio Low Rider",
         description: "Pegue um Low Rider (Blade, Voodoo, Tornado, etc.) para esta missão, siga César até o ponto de " +
             "largada da corrida. Termine em 1º lugar para ganhar a missão.",
         rewards: "$1.000",
-        icon: "cesarVialpando.jpg",
+        icon: `${iconsDir.sanAndreas}cesarVialpando.jpg`,
     },
     {
         title: "19 - Vida na Praia",
@@ -151,7 +152,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "(aperte > 2x durante a conversa), faça os movimentos certinhos. Na conversa seguinte aperte direita de " +
             "novo e entre na van, leve ela para a garagem indicada.",
         rewards: "Respeito",
-        icon: "ogLoc.jpg",
+        icon: `${iconsDir.sanAndreas}ogLoc.jpg`,
     },
     {
         title: "20 - As Rimas do Madd Dog",
@@ -160,7 +161,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "aperte O para matar o guarda pelas costas. Faça isso com todos os guardas até chegar ao livro de rimas, " +
             "pegue-o e saia da mansão matando os guardas que sobraram. Leve o livro para OG Loc na lanchonete.",
         rewards: "Respeito",
-        icon: "ogLoc.jpg",
+        icon: `${iconsDir.sanAndreas}ogLoc.jpg`,
     },
     {
         title: "21 - Questões de Gestão",
@@ -171,7 +172,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "seu carro, leve-o até o píer na praia, aumente a velocidade ao máximo e salte antes que o carro caia no " +
             "mar.",
         rewards: "Respeito",
-        icon: "ogLoc.jpg",
+        icon: `${iconsDir.sanAndreas}ogLoc.jpg`,
     },
     {
         title: "22 - Festinha em Casa",
@@ -180,7 +181,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "Mas a festa é interrompida por gangues inimigas que vieram atacar seu território! Mate todos para " +
             "completar a missão.",
         rewards: "Respeito",
-        icon: "ogLoc.jpg",
+        icon: `${iconsDir.sanAndreas}ogLoc.jpg`,
     },
     {
         title: "23 - Desejo Ardente",
@@ -189,7 +190,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "Ache o extintor em uma das salas (Para apagar o fogo é só mirar bem na base da chama), suba no 2º andar " +
             "e traga ela pra fora, depois leve-a pra casa. Agora ela é sua namorada!",
         rewards: "Uma Namorada",
-        icon: "crash.jpg",
+        icon: `${iconsDir.sanAndreas}crash.jpg`,
     },
     {
         title: "24 - Mercado Cinza",
@@ -198,7 +199,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "segundo andar, um cara vai sair correndo e você terá que segui-lo, quando ele entrar no carro suba na " +
             "moto e siga-o atirando até o carro explodir.",
         rewards: "Respeito",
-        icon: "crash.jpg",
+        icon: `${iconsDir.sanAndreas}crash.jpg`,
     },
     {
         title: "25 - Doberman",
@@ -207,7 +208,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "Sobreviva aos ataques para ganhar esse território para a Groove Street Families. A partir de agora você " +
             "poderá lutar para ganhar novos territórios pela cidade.",
         rewards: "Respeito",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "26 - Los Sepulcros",
@@ -218,7 +219,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "dispensá-los). Mate o gangster Kane, e leve Sweet de volta pra casa para completar a missão. Pinte seu " +
             "carro para escapar dos “mega”.",
         rewards: "Respeito",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "27 - Reunindo As Famílias",
@@ -229,7 +230,7 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "helicóptero e depois o destrua. Desça e entre no carro com Smoke e Ryder, agora você terá que atirar " +
             "nos carros e motos na rua e policiais que pularem no seu carro. As cenas finais são dignas de um filme!",
         rewards: "Respeito",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     },
     {
         title: "28 - O Sabre Verde",
@@ -238,6 +239,6 @@ export const losSantosMissionsPartOne: Array<IMissionItem> = [
             "Traidores! Depois corra para o local indicado para salvar Sweet, que está em perigo. Se proteja atrás " +
             "dos carros e cuidado com os gangsters que vierem de carro.",
         rewards: "Nada",
-        icon: "sweet.jpg",
+        icon: `${iconsDir.sanAndreas}sweet.jpg`,
     }
 ]
