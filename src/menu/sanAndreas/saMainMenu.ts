@@ -15,7 +15,7 @@ export const saMainMenuItems: Array<iMenuItem> = [
     {
         routeName: 'sa-principal-missions',
         icon: `${iconsDir.sanAndreas}cj.jpg`,
-        label: 'Missões Principais'
+        label: 'Guia Missões Principais'
     },
     {
         routeName: 'in-development',

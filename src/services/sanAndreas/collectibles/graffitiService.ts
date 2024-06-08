@@ -6,6 +6,7 @@ import {graffitiPartEnum} from "@/dataObjects/collectibles/sanAndreas/graffiti/g
 interface iGraffitiService {
     getGraffiti: (part: string) => Array<ICollectibleItem>
     updateGraffiti: (part: string, items: Array<ICollectibleItem>) => void
+    getSumOfCollectedItems: () => number
 }
 
 export const graffitiService: iGraffitiService = {
@@ -33,5 +34,23 @@ export const graffitiService: iGraffitiService = {
     },
     updateGraffiti: function(part: string, items: Array<ICollectibleItem>): void {
         utilLocalStorage.setStorageItem(part, items, null)
+    },
+    getSumOfCollectedItems: function(): number {
+        const partOne: Array<ICollectibleItem> = this.getGraffiti(graffitiPartEnum.partOne)
+        let allParts: Array<ICollectibleItem> = partOne.concat(
+            this.getGraffiti(graffitiPartEnum.partTwo),
+            this.getGraffiti(graffitiPartEnum.partThree),
+            this.getGraffiti(graffitiPartEnum.partFour),
+            this.getGraffiti(graffitiPartEnum.partFive),
+            this.getGraffiti(graffitiPartEnum.partSix)
+        )
+        let total: number = 0
+        allParts.forEach((item: ICollectibleItem) => {
+            if (item.collected) {
+                total++
+            }
+        })
+
+        return total
     }
 }

@@ -17,6 +17,7 @@ const props = defineProps(
         }
     }
 )
+const emmit = defineEmits(["update:graffiti"])
 
 const items = graffitiService.getGraffiti(props.part)
 const collectedItems = ref(0)
@@ -29,6 +30,7 @@ function updateGraffiti(item: ICollectibleItem) {
     })
     graffitiService.updateGraffiti(props.part, items)
     updateCollectedItems()
+    emmit("update:graffiti", items)
 }
 
 function updateCollectedItems() {
