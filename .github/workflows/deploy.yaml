@@ -29,6 +29,9 @@ jobs:
       - name: Copy CNAME
         run: cp ./CNAME ./public/build/CNAME
 
+      - name: Fix SPA 404 error
+        run: cp ./public/build/index.html ./public/build/404.html
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
         with:
