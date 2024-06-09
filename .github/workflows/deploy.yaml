@@ -23,6 +23,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Copy images to public folder
+        run: cd dist && touch public && cp -r public dist/public
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
         with:
