@@ -1,0 +1,518 @@
+{
+  "_GtaHelperCard.vue_vue_type_script_setup_true_lang-A7U1rViN.js": {
+    "file": "assets/GtaHelperCard.vue_vue_type_script_setup_true_lang-A7U1rViN.js",
+    "name": "GtaHelperCard.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-BbjBI6JP.js": {
+    "file": "assets/GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-BbjBI6JP.js",
+    "name": "GtaHelperCard.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "index-legacy.html"
+    ]
+  },
+  "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-LK3UWPyD.js": {
+    "file": "assets/GtaHelperHeader.vue_vue_type_script_setup_true_lang-LK3UWPyD.js",
+    "name": "GtaHelperHeader.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B0LV05p8.js": {
+    "file": "assets/GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B0LV05p8.js",
+    "name": "GtaHelperHeader.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "index-legacy.html"
+    ]
+  },
+  "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js": {
+    "file": "assets/GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js",
+    "name": "GtaHelperPage.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js": {
+    "file": "assets/GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js",
+    "name": "GtaHelperPage.vue_vue_type_script_setup_true_lang",
+    "imports": [
+      "index-legacy.html"
+    ]
+  },
+  "_animation-DhLAiJqX.js": {
+    "file": "assets/animation-DhLAiJqX.js",
+    "name": "animation",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_animation-legacy-D5dIjhgV.js": {
+    "file": "assets/animation-legacy-D5dIjhgV.js",
+    "name": "animation",
+    "imports": [
+      "index-legacy.html"
+    ]
+  },
+  "_iconsDir-OA2VdW_h.js": {
+    "file": "assets/iconsDir-OA2VdW_h.js",
+    "name": "iconsDir"
+  },
+  "_iconsDir-legacy-qlKtOQeX.js": {
+    "file": "assets/iconsDir-legacy-qlKtOQeX.js",
+    "name": "iconsDir"
+  },
+  "_utilLocalStorage-BbPafjsp.js": {
+    "file": "assets/utilLocalStorage-BbPafjsp.js",
+    "name": "utilLocalStorage"
+  },
+  "_utilLocalStorage-legacy-BI6FMvcZ.js": {
+    "file": "assets/utilLocalStorage-legacy-BI6FMvcZ.js",
+    "name": "utilLocalStorage"
+  },
+  "index-legacy.html": {
+    "file": "assets/index-legacy-8p7ku7nj.js",
+    "name": "index",
+    "src": "index-legacy.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/@ionic/core/components/ios.transition-legacy.js",
+      "node_modules/@ionic/core/components/md.transition-legacy.js",
+      "node_modules/@ionic/core/components/swipe-back-legacy.js",
+      "node_modules/@ionic/core/components/swipe-back-legacy.js",
+      "node_modules/@ionic/core/components/index9-legacy.js",
+      "node_modules/@ionic/core/components/status-tap-legacy.js",
+      "node_modules/@ionic/core/components/input-shims-legacy.js",
+      "node_modules/@ionic/core/components/keyboard2-legacy.js",
+      "node_modules/@ionic/core/components/focus-visible-legacy.js",
+      "src/views/temporary/DevelopmentPage-legacy.vue",
+      "src/views/sanAndreas/main/SaMainPage-legacy.vue",
+      "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage-legacy.vue",
+      "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage-legacy.vue",
+      "src/views/sanAndreas/collectibles/photos/SaPhotosPage-legacy.vue",
+      "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage-legacy.vue",
+      "src/views/sanAndreas/collectibles/oysters/SaOystersPage-legacy.vue",
+      "src/views/sanAndreas/properties/SaAllPropertiesPage-legacy.vue",
+      "src/views/viceCity/main/VcMainPage-legacy.vue",
+      "src/views/v/main/VMainPage-legacy.vue"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-o_HX6XEl.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/@ionic/core/components/ios.transition.js",
+      "node_modules/@ionic/core/components/md.transition.js",
+      "node_modules/@ionic/core/components/swipe-back.js",
+      "node_modules/@ionic/core/components/swipe-back.js",
+      "node_modules/@ionic/core/components/index9.js",
+      "node_modules/@ionic/core/components/status-tap.js",
+      "node_modules/@ionic/core/components/input-shims.js",
+      "node_modules/@ionic/core/components/keyboard2.js",
+      "node_modules/@ionic/core/components/focus-visible.js",
+      "src/views/temporary/DevelopmentPage.vue",
+      "src/views/sanAndreas/main/SaMainPage.vue",
+      "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage.vue",
+      "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage.vue",
+      "src/views/sanAndreas/collectibles/photos/SaPhotosPage.vue",
+      "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage.vue",
+      "src/views/sanAndreas/collectibles/oysters/SaOystersPage.vue",
+      "src/views/sanAndreas/properties/SaAllPropertiesPage.vue",
+      "src/views/viceCity/main/VcMainPage.vue",
+      "src/views/v/main/VMainPage.vue"
+    ],
+    "css": [
+      "assets/index-DW8AseGk.css"
+    ]
+  },
+  "node_modules/@ionic/core/components/focus-visible-legacy.js": {
+    "file": "assets/focus-visible-legacy-CdO5cX4I.js",
+    "name": "focus-visible",
+    "src": "node_modules/@ionic/core/components/focus-visible-legacy.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/@ionic/core/components/focus-visible.js": {
+    "file": "assets/focus-visible-supuXXMI.js",
+    "name": "focus-visible",
+    "src": "node_modules/@ionic/core/components/focus-visible.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/@ionic/core/components/index9-legacy.js": {
+    "file": "assets/index9-legacy-Bsy4w0VD.js",
+    "name": "index9",
+    "src": "node_modules/@ionic/core/components/index9-legacy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index-legacy.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/index9.js": {
+    "file": "assets/index9-C1cT1fOA.js",
+    "name": "index9",
+    "src": "node_modules/@ionic/core/components/index9.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/input-shims-legacy.js": {
+    "file": "assets/input-shims-legacy-Dsi2LxPK.js",
+    "name": "input-shims",
+    "src": "node_modules/@ionic/core/components/input-shims-legacy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index-legacy.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/input-shims.js": {
+    "file": "assets/input-shims-COY8vrE_.js",
+    "name": "input-shims",
+    "src": "node_modules/@ionic/core/components/input-shims.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/ios.transition-legacy.js": {
+    "file": "assets/ios.transition-legacy-Dn3dQn-m.js",
+    "name": "ios.transition",
+    "src": "node_modules/@ionic/core/components/ios.transition-legacy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_animation-legacy-D5dIjhgV.js",
+      "index-legacy.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/ios.transition.js": {
+    "file": "assets/ios.transition-DEUDCiC6.js",
+    "name": "ios.transition",
+    "src": "node_modules/@ionic/core/components/ios.transition.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_animation-DhLAiJqX.js",
+      "index.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/keyboard2-legacy.js": {
+    "file": "assets/keyboard2-legacy-CY2aPDrD.js",
+    "name": "keyboard2",
+    "src": "node_modules/@ionic/core/components/keyboard2-legacy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index-legacy.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/keyboard2.js": {
+    "file": "assets/keyboard2-D5R-yJpc.js",
+    "name": "keyboard2",
+    "src": "node_modules/@ionic/core/components/keyboard2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/md.transition-legacy.js": {
+    "file": "assets/md.transition-legacy-D4sIarYn.js",
+    "name": "md.transition",
+    "src": "node_modules/@ionic/core/components/md.transition-legacy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_animation-legacy-D5dIjhgV.js",
+      "index-legacy.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/md.transition.js": {
+    "file": "assets/md.transition-XV6e92gx.js",
+    "name": "md.transition",
+    "src": "node_modules/@ionic/core/components/md.transition.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_animation-DhLAiJqX.js",
+      "index.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/status-tap-legacy.js": {
+    "file": "assets/status-tap-legacy-DdgOtXQW.js",
+    "name": "status-tap",
+    "src": "node_modules/@ionic/core/components/status-tap-legacy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index-legacy.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/status-tap.js": {
+    "file": "assets/status-tap-b2NLPK1P.js",
+    "name": "status-tap",
+    "src": "node_modules/@ionic/core/components/status-tap.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/swipe-back-legacy.js": {
+    "file": "assets/swipe-back-legacy-CO6-I3BJ.js",
+    "name": "swipe-back",
+    "src": "node_modules/@ionic/core/components/swipe-back-legacy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index-legacy.html"
+    ]
+  },
+  "node_modules/@ionic/core/components/swipe-back.js": {
+    "file": "assets/swipe-back-C-NbjHQA.js",
+    "name": "swipe-back",
+    "src": "node_modules/@ionic/core/components/swipe-back.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage-legacy.vue": {
+    "file": "assets/SaGraffitiPage-legacy-DsayNA_T.js",
+    "name": "SaGraffitiPage",
+    "src": "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B0LV05p8.js",
+      "index-legacy.html",
+      "_utilLocalStorage-legacy-BI6FMvcZ.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-BbjBI6JP.js"
+    ]
+  },
+  "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage.vue": {
+    "file": "assets/SaGraffitiPage-DSs44QBP.js",
+    "name": "SaGraffitiPage",
+    "src": "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-LK3UWPyD.js",
+      "index.html",
+      "_utilLocalStorage-BbPafjsp.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-A7U1rViN.js"
+    ]
+  },
+  "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage-legacy.vue": {
+    "file": "assets/SaHorseShoesPage-legacy-B8G5_OXO.js",
+    "name": "SaHorseShoesPage",
+    "src": "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-BbjBI6JP.js",
+      "index-legacy.html",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B0LV05p8.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js",
+      "_utilLocalStorage-legacy-BI6FMvcZ.js"
+    ]
+  },
+  "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage.vue": {
+    "file": "assets/SaHorseShoesPage-DuVavGV8.js",
+    "name": "SaHorseShoesPage",
+    "src": "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-A7U1rViN.js",
+      "index.html",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-LK3UWPyD.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js",
+      "_utilLocalStorage-BbPafjsp.js"
+    ]
+  },
+  "src/views/sanAndreas/collectibles/oysters/SaOystersPage-legacy.vue": {
+    "file": "assets/SaOystersPage-legacy-cSXSMLEU.js",
+    "name": "SaOystersPage",
+    "src": "src/views/sanAndreas/collectibles/oysters/SaOystersPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-BbjBI6JP.js",
+      "index-legacy.html",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B0LV05p8.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js",
+      "_utilLocalStorage-legacy-BI6FMvcZ.js"
+    ]
+  },
+  "src/views/sanAndreas/collectibles/oysters/SaOystersPage.vue": {
+    "file": "assets/SaOystersPage-CfjEhjqN.js",
+    "name": "SaOystersPage",
+    "src": "src/views/sanAndreas/collectibles/oysters/SaOystersPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-A7U1rViN.js",
+      "index.html",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-LK3UWPyD.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js",
+      "_utilLocalStorage-BbPafjsp.js"
+    ]
+  },
+  "src/views/sanAndreas/collectibles/photos/SaPhotosPage-legacy.vue": {
+    "file": "assets/SaPhotosPage-legacy-DBwWZUb_.js",
+    "name": "SaPhotosPage",
+    "src": "src/views/sanAndreas/collectibles/photos/SaPhotosPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B0LV05p8.js",
+      "index-legacy.html",
+      "_utilLocalStorage-legacy-BI6FMvcZ.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-BbjBI6JP.js"
+    ]
+  },
+  "src/views/sanAndreas/collectibles/photos/SaPhotosPage.vue": {
+    "file": "assets/SaPhotosPage-CungZfky.js",
+    "name": "SaPhotosPage",
+    "src": "src/views/sanAndreas/collectibles/photos/SaPhotosPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-LK3UWPyD.js",
+      "index.html",
+      "_utilLocalStorage-BbPafjsp.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-A7U1rViN.js"
+    ]
+  },
+  "src/views/sanAndreas/main/SaMainPage-legacy.vue": {
+    "file": "assets/SaMainPage-legacy-BvCp1Zr9.js",
+    "name": "SaMainPage",
+    "src": "src/views/sanAndreas/main/SaMainPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index-legacy.html",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B0LV05p8.js",
+      "_iconsDir-legacy-qlKtOQeX.js"
+    ]
+  },
+  "src/views/sanAndreas/main/SaMainPage.vue": {
+    "file": "assets/SaMainPage-BOAoqfzR.js",
+    "name": "SaMainPage",
+    "src": "src/views/sanAndreas/main/SaMainPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-LK3UWPyD.js",
+      "_iconsDir-OA2VdW_h.js"
+    ],
+    "css": [
+      "assets/SaMainPage-B8yDS0rV.css"
+    ]
+  },
+  "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage-legacy.vue": {
+    "file": "assets/SaPrincipalMissionsPage-legacy-C83z2Qq-.js",
+    "name": "SaPrincipalMissionsPage",
+    "src": "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B0LV05p8.js",
+      "index-legacy.html",
+      "_iconsDir-legacy-qlKtOQeX.js"
+    ]
+  },
+  "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage.vue": {
+    "file": "assets/SaPrincipalMissionsPage-DGs5jeu7.js",
+    "name": "SaPrincipalMissionsPage",
+    "src": "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-LK3UWPyD.js",
+      "index.html",
+      "_iconsDir-OA2VdW_h.js"
+    ]
+  },
+  "src/views/sanAndreas/properties/SaAllPropertiesPage-legacy.vue": {
+    "file": "assets/SaAllPropertiesPage-legacy-KxNLrmL3.js",
+    "name": "SaAllPropertiesPage",
+    "src": "src/views/sanAndreas/properties/SaAllPropertiesPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index-legacy.html",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B0LV05p8.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-BbjBI6JP.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js"
+    ]
+  },
+  "src/views/sanAndreas/properties/SaAllPropertiesPage.vue": {
+    "file": "assets/SaAllPropertiesPage-DAegsIS9.js",
+    "name": "SaAllPropertiesPage",
+    "src": "src/views/sanAndreas/properties/SaAllPropertiesPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-LK3UWPyD.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-A7U1rViN.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js"
+    ]
+  },
+  "src/views/temporary/DevelopmentPage-legacy.vue": {
+    "file": "assets/DevelopmentPage-legacy-CwdNcL3g.js",
+    "name": "DevelopmentPage",
+    "src": "src/views/temporary/DevelopmentPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js",
+      "index-legacy.html"
+    ]
+  },
+  "src/views/temporary/DevelopmentPage.vue": {
+    "file": "assets/DevelopmentPage-BtebapCN.js",
+    "name": "DevelopmentPage",
+    "src": "src/views/temporary/DevelopmentPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js",
+      "index.html"
+    ]
+  },
+  "src/views/v/main/VMainPage-legacy.vue": {
+    "file": "assets/VMainPage-legacy-BdBho5r0.js",
+    "name": "VMainPage",
+    "src": "src/views/v/main/VMainPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index-legacy.html",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js"
+    ]
+  },
+  "src/views/v/main/VMainPage.vue": {
+    "file": "assets/VMainPage-VEsXh1Zk.js",
+    "name": "VMainPage",
+    "src": "src/views/v/main/VMainPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js"
+    ]
+  },
+  "src/views/viceCity/main/VcMainPage-legacy.vue": {
+    "file": "assets/VcMainPage-legacy-DH_LUxKi.js",
+    "name": "VcMainPage",
+    "src": "src/views/viceCity/main/VcMainPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index-legacy.html",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BveyDDGI.js"
+    ]
+  },
+  "src/views/viceCity/main/VcMainPage.vue": {
+    "file": "assets/VcMainPage-C0C5nTPC.js",
+    "name": "VcMainPage",
+    "src": "src/views/viceCity/main/VcMainPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-UrhpChW3.js"
+    ]
+  },
+  "vite/legacy-polyfills-legacy": {
+    "file": "assets/polyfills-legacy-8O2Zr-zY.js",
+    "name": "polyfills",
+    "src": "vite/legacy-polyfills-legacy",
+    "isEntry": true
+  }
+}
