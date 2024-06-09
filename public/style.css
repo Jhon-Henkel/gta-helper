@@ -1,0 +1,49 @@
+ion-content {
+    position: relative;
+}
+
+.ion-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lateral-margin-16-px {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+}
+
+.no-padding-end {
+    padding-right: 0;
+}
+
+.top-icon {
+    font-size: 1.8em;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--ion-color-primary);
+}
+
+.center-ion-label-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
