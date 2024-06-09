@@ -38,8 +38,8 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Todas as Propriedades'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
+        routeName: 'sa-oysters',
+        icon: `${iconsDir.sanAndreas}oyster.png`,
         label: 'Ostras'
     },
     {
