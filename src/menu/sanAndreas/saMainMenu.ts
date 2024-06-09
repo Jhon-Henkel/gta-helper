@@ -33,8 +33,8 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Missões de Entregador'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
+        routeName: 'sa-all-properties',
+        icon: `${iconsDir.sanAndreas}house.png`,
         label: 'Todas as Propriedades'
     },
     {

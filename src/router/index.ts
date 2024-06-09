@@ -47,6 +47,11 @@ const routes: Array<RouteRecordRaw> = [
                 component: () => import('../views/sanAndreas/collectibles/oysters/SaOystersPage.vue')
             },
             {
+                path: 'sa/all-properties',
+                name: 'sa-all-properties',
+                component: () => import('../views/sanAndreas/properties/SaAllPropertiesPage.vue')
+            },
+            {
                 path: 'vc/main',
                 name: 'vc-main',
                 component: () => import('../views/viceCity/main/VcMainPage.vue')
