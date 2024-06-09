@@ -48,8 +48,8 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Grafites'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
+        routeName: 'sa-photos',
+        icon: `${iconsDir.sanAndreas}cam.png`,
         label: 'Fotos'
     },
     {

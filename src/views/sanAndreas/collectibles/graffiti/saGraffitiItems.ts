@@ -1,13 +1,7 @@
 import {graffitiPartEnum} from "@/dataObjects/collectibles/sanAndreas/graffiti/graffitiPartEnum"
+import {ICollectibleViewItem} from "@/views/sanAndreas/collectibles/iCollectibleViewItem"
 
-interface ISaGraffitiItem {
-    accordion: string;
-    imageFileName: string;
-    part: string;
-    title: string;
-}
-
-export const saGraffitiItems: Array<ISaGraffitiItem> = [
+export const saGraffitiItems: Array<ICollectibleViewItem> = [
     {
         accordion: 'first',
         imageFileName: 'sa_graffiti_1.png',
