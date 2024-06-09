@@ -26,6 +26,9 @@ jobs:
       - name: Copy Images
         run: mkdir public/build/public/ && mkdir public/build/public/assets/ && mkdir public/build/public/assets/images/ && cp -r ./public/assets/images/* ./public/build/public/assets/images/
 
+      - name: Copy CNAME
+        run: cp ./CNAME ./public/build/CNAME
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
         with:
