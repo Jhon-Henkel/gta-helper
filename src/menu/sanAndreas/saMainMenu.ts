@@ -53,8 +53,8 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Fotos'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
+        routeName: 'sa-horse-shoes',
+        icon: `${iconsDir.sanAndreas}horse_shoes.png`,
         label: 'Ferradura'
     },
     {

@@ -2,7 +2,6 @@ import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
 import {utilLocalStorage} from "@/services/util/utilLocalStorage"
 import {saPhotoPartEnum} from "@/dataObjects/collectibles/sanAndreas/photo/saPhotoPartEnum"
 import {saPhoto} from "@/dataObjects/collectibles/sanAndreas/photo/saPhoto"
-import {graffitiPartEnum} from "@/dataObjects/collectibles/sanAndreas/graffiti/graffitiPartEnum"
 
 interface iSaPhotosService {
     getPhotos: (part: string) => Array<ICollectibleItem>
@@ -10,7 +9,7 @@ interface iSaPhotosService {
     getSumOfCollectedItems: () => number
 }
 
-export const saPhotosService:iSaPhotosService = {
+export const saPhotosService: iSaPhotosService = {
     getPhotos: function(part: string): Array<ICollectibleItem> {
         let items: Array<ICollectibleItem>|null = utilLocalStorage.getStorageItem(part)
         if (! items) {
