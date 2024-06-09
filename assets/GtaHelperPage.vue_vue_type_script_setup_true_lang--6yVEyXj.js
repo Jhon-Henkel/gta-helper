@@ -1,0 +1,1 @@
+import{d as o,c as s,w as a,u as t,o as r,r as n,a as l,f as c,D as u}from"./index-Bzj9WBoP.js";const d=o({__name:"GtaHelperPage",setup(_){return(e,f)=>(r(),s(t(u),null,{default:a(()=>[n(e.$slots,"header"),l(t(c),{fullscreen:!0},{default:a(()=>[n(e.$slots,"content")]),_:3})]),_:3}))}});export{d as _};
