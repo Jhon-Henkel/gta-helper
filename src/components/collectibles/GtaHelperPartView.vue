@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import {directories} from "@/dataObjects/directories"
-import {IonImg, IonItem, IonLabel, IonCheckbox, IonList} from "@ionic/vue"
-import {graffitiService} from "@/services/sanAndreas/collectibles/graffitiService"
+import {onMounted, PropType, ref} from "vue"
+import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
 import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
-import {onMounted, ref} from "vue"
+import {IonItem, IonLabel, IonImg, IonCheckbox, IonList} from "@ionic/vue"
 
 const props = defineProps(
     {
@@ -14,23 +13,27 @@ const props = defineProps(
         imageFileName: {
             type: String,
             required: true
+        },
+        service: {
+            type: Object as PropType<ICollectibleService>,
+            required: true
         }
     }
 )
-const emmit = defineEmits(["update:graffiti"])
 
-const items = graffitiService.getGraffiti(props.part)
+const emmit = defineEmits(["update"])
+const items = props.service.getItemsPart(props.part)
 const collectedItems = ref(0)
 
-function updateGraffiti(item: ICollectibleItem) {
+function update(item: ICollectibleItem) {
     items.forEach((it) => {
         if (it.number === item.number) {
             it.collected = !it.collected
         }
     })
-    graffitiService.updateGraffiti(props.part, items)
+    props.service.updateItemsPart(props.part, items)
     updateCollectedItems()
-    emmit("update:graffiti", items)
+    emmit("update", items)
 }
 
 function updateCollectedItems() {
@@ -55,10 +58,10 @@ onMounted(() => {
         <ion-label>{{ collectedItems }}/{{ items.length }}</ion-label>
     </ion-item>
     <div class="ion-padding" slot="content">
-        <ion-img :src="`${directories.sanAndreas.collectibles.graffiti}${imageFileName}`"/>
+        <ion-img :src="imageFileName"/>
         <ion-list>
             <ion-item v-for="(item, index) in items" :key="index">
-                <ion-checkbox slot="start" v-model="item.collected" @click="updateGraffiti(item)"/>
+                <ion-checkbox slot="start" v-model="item.collected" @click="update(item)"/>
                 <ion-label>
                     {{ item.number }}
                     <p>{{ item.description }}</p>

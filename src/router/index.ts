@@ -1,16 +1,6 @@
 import {createRouter, createWebHistory} from '@ionic/vue-router'
 import {RouteRecordRaw} from 'vue-router'
 import TabsPage from '../views/TabsPage.vue'
-import DevelopmentPage from "@/views/temporary/DevelopmentPage.vue"
-import SaMainPage from '@/views/sanAndreas/main/SaMainPage.vue'
-import SaPrincipalMissionsPage from "@/views/sanAndreas/missions/principal/SaPrincipalMissionsPage.vue"
-import SaGraffitiPage from "@/views/sanAndreas/collectibles/graffiti/SaGraffitiPage.vue"
-import SaPhotosPage from "@/views/sanAndreas/collectibles/photos/SaPhotosPage.vue"
-import VMainPage from "@/views/v/main/VMainPage.vue"
-import VcMainPage from "@/views/viceCity/main/VcMainPage.vue"
-import SaAllPropertiesPage from "@/views/sanAndreas/properties/SaAllPropertiesPage.vue"
-import SaOystersPage from "@/views/sanAndreas/collectibles/oysters/SaOystersPage.vue"
-import SaHorseShoesPage from "@/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage.vue"
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -24,52 +14,52 @@ const routes: Array<RouteRecordRaw> = [
             {
                 path: 'in-development',
                 name: 'in-development',
-                component: DevelopmentPage
+                component: () => import('../views/temporary/DevelopmentPage.vue')
             },
             {
                 path: 'sa/main',
                 name: 'sa-main',
-                component: SaMainPage
+                component: () => import('../views/sanAndreas/main/SaMainPage.vue')
             },
             {
                 path: 'sa/principal-missions',
                 name: 'sa-principal-missions',
-                component: SaPrincipalMissionsPage
+                component: () => import('../views/sanAndreas/missions/principal/SaPrincipalMissionsPage.vue')
             },
             {
                 path: 'sa/graffiti',
                 name: 'sa-graffiti',
-                component: SaGraffitiPage
+                component: () => import('../views/sanAndreas/collectibles/graffiti/SaGraffitiPage.vue')
             },
             {
                 path: 'sa/photos',
                 name: 'sa-photos',
-                component: SaPhotosPage
+                component: () => import('../views/sanAndreas/collectibles/photos/SaPhotosPage.vue')
             },
             {
                 path: 'sa/horse-shoes',
                 name: 'sa-horse-shoes',
-                component: SaHorseShoesPage
+                component: () => import('../views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage.vue')
             },
             {
                 path: 'sa/oysters',
                 name: 'sa-oysters',
-                component: SaOystersPage
+                component: () => import('../views/sanAndreas/collectibles/oysters/SaOystersPage.vue')
             },
             {
                 path: 'sa/all-properties',
                 name: 'sa-all-properties',
-                component: SaAllPropertiesPage
+                component: () => import('../views/sanAndreas/properties/SaAllPropertiesPage.vue')
             },
             {
                 path: 'vc/main',
                 name: 'vc-main',
-                component: VcMainPage
+                component: () => import('../views/viceCity/main/VcMainPage.vue')
             },
             {
                 path: 'v/main',
                 name: 'v-main',
-                component: VMainPage
+                component: () => import('../views/v/main/VMainPage.vue')
             }
         ]
     }

@@ -2,18 +2,19 @@
 import GtaHelperPage from "@/components/page/GtaHelperPage.vue"
 import GtaHelperHeader from "@/components/header/GtaHelperHeader.vue"
 import {IonAccordion, IonAccordionGroup, IonContent} from "@ionic/vue"
-import SaGraffitiPart from "@/views/sanAndreas/collectibles/graffiti/SaGraffitiPart.vue"
 import {saGraffitiItems} from "@/views/sanAndreas/collectibles/graffiti/saGraffitiItems"
-import {graffitiService} from "@/services/sanAndreas/collectibles/graffitiService"
+import {saGraffitiService} from "@/services/collectibles/sanAndreas/saGraffitiService"
 import {onMounted, ref} from "vue"
 import GtaHelperCard from "@/components/card/GtaHelperCard.vue"
+import GtaHelperPartView from "@/components/collectibles/GtaHelperPartView.vue"
+import {directories} from "@/dataObjects/directories"
 
 const totalGraffitis = 100
 const totalCollectedItems = ref()
 const percentage = ref()
 
 function updateGraffitiCounter() {
-    totalCollectedItems.value = graffitiService.getSumOfCollectedItems()
+    totalCollectedItems.value = saGraffitiService.getSumOfCollectedItems()
     percentage.value = parseInt(String((totalCollectedItems.value / totalGraffitis) * 100))
 }
 
@@ -39,13 +40,14 @@ onMounted(() => {
                 </gta-helper-card>
                 <ion-accordion-group>
                     <ion-accordion v-for="(item, index) in saGraffitiItems" :key="index" :value="item.accordion">
-                        <sa-graffiti-part
-                            :image-file-name="item.imageFileName"
+                        <gta-helper-part-view
+                            :image-file-name="`${directories.sanAndreas.collectibles.graffiti}${item.imageFileName}`"
                             :part="item.part"
-                            @update:graffiti="updateGraffitiCounter"
+                            :service="saGraffitiService"
+                            @update="updateGraffitiCounter"
                         >
                             {{ item.title }}
-                        </sa-graffiti-part>
+                        </gta-helper-part-view>
                     </ion-accordion>
                 </ion-accordion-group>
             </ion-content>

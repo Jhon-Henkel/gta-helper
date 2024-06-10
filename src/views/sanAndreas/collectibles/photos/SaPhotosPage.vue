@@ -3,10 +3,11 @@ import GtaHelperPage from "@/components/page/GtaHelperPage.vue"
 import GtaHelperHeader from "@/components/header/GtaHelperHeader.vue"
 import {IonAccordion, IonAccordionGroup} from "@ionic/vue"
 import {saPhotosItems} from "@/views/sanAndreas/collectibles/photos/saPhotoItems"
-import SaPhotosPart from "@/views/sanAndreas/collectibles/photos/SaPhotosPart.vue"
 import GtaHelperCard from "@/components/card/GtaHelperCard.vue"
 import {onMounted, ref} from "vue"
-import {saPhotosService} from "@/services/sanAndreas/collectibles/saPhotosService"
+import {saPhotosService} from "@/services/collectibles/sanAndreas/saPhotosService"
+import {directories} from "@/dataObjects/directories"
+import GtaHelperPartView from "@/components/collectibles/GtaHelperPartView.vue"
 
 const totalItems = 50
 const totalCollectedItems = ref()
@@ -38,13 +39,14 @@ onMounted(() => {
             </gta-helper-card>
             <ion-accordion-group>
                 <ion-accordion v-for="(item, index) in saPhotosItems" :key="index" :value="item.accordion">
-                    <sa-photos-part
-                        :image-file-name="item.imageFileName"
+                    <gta-helper-part-view
+                        :image-file-name="`${directories.sanAndreas.collectibles.photos}${item.imageFileName}`"
                         :part="item.part"
-                        @update:photos="updatePhotoCounter"
+                        :service="saPhotosService"
+                        @update="updatePhotoCounter"
                     >
                         {{ item.title }}
-                    </sa-photos-part>
+                    </gta-helper-part-view>
                 </ion-accordion>
             </ion-accordion-group>
         </template>

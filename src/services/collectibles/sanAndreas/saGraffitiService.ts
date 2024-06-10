@@ -2,15 +2,10 @@ import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
 import {graffiti} from "@/dataObjects/collectibles/sanAndreas/graffiti/graffiti"
 import {utilLocalStorage} from "@/services/util/utilLocalStorage"
 import {graffitiPartEnum} from "@/dataObjects/collectibles/sanAndreas/graffiti/graffitiPartEnum"
+import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
 
-interface iGraffitiService {
-    getGraffiti: (part: string) => Array<ICollectibleItem>
-    updateGraffiti: (part: string, items: Array<ICollectibleItem>) => void
-    getSumOfCollectedItems: () => number
-}
-
-export const graffitiService: iGraffitiService = {
-    getGraffiti: function(part: string): Array<ICollectibleItem> {
+export const saGraffitiService: ICollectibleService = {
+    getItemsPart: function(part: string): Array<ICollectibleItem> {
         let items: Array<ICollectibleItem>|null = utilLocalStorage.getStorageItem(part)
         if (! items) {
             if (part === graffitiPartEnum.partOne) {
@@ -28,21 +23,21 @@ export const graffitiService: iGraffitiService = {
             } else {
                 items = []
             }
-            this.updateGraffiti(part, items)
+            this.updateItemsPart(part, items)
         }
         return items
     },
-    updateGraffiti: function(part: string, items: Array<ICollectibleItem>): void {
+    updateItemsPart: function(part: string, items: Array<ICollectibleItem>): void {
         utilLocalStorage.setStorageItem(part, items, null)
     },
     getSumOfCollectedItems: function(): number {
-        const partOne: Array<ICollectibleItem> = this.getGraffiti(graffitiPartEnum.partOne)
+        const partOne: Array<ICollectibleItem> = this.getItemsPart(graffitiPartEnum.partOne)
         let allParts: Array<ICollectibleItem> = partOne.concat(
-            this.getGraffiti(graffitiPartEnum.partTwo),
-            this.getGraffiti(graffitiPartEnum.partThree),
-            this.getGraffiti(graffitiPartEnum.partFour),
-            this.getGraffiti(graffitiPartEnum.partFive),
-            this.getGraffiti(graffitiPartEnum.partSix)
+            this.getItemsPart(graffitiPartEnum.partTwo),
+            this.getItemsPart(graffitiPartEnum.partThree),
+            this.getItemsPart(graffitiPartEnum.partFour),
+            this.getItemsPart(graffitiPartEnum.partFive),
+            this.getItemsPart(graffitiPartEnum.partSix)
         )
         let total: number = 0
         allParts.forEach((item: ICollectibleItem) => {

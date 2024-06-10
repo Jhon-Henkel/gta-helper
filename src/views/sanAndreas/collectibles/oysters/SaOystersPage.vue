@@ -4,10 +4,10 @@ import {IonAccordion, IonAccordionGroup} from "@ionic/vue"
 import GtaHelperHeader from "@/components/header/GtaHelperHeader.vue"
 import GtaHelperPage from "@/components/page/GtaHelperPage.vue"
 import {onMounted, ref} from "vue"
-import SaHorseShoesPart from "@/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPart.vue"
-import {saOystersService} from "@/services/sanAndreas/collectibles/saOystersService"
+import {saOystersService} from "@/services/collectibles/sanAndreas/saOystersService"
 import {saOystersItems} from "@/views/sanAndreas/collectibles/oysters/saOystersItems"
-import SaOystersPart from "@/views/sanAndreas/collectibles/oysters/SaOystersPart.vue"
+import {directories} from "@/dataObjects/directories"
+import GtaHelperPartView from "@/components/collectibles/GtaHelperPartView.vue"
 
 const totalItems = 50
 const totalCollectedItems = ref()
@@ -39,13 +39,14 @@ onMounted(() => {
             </gta-helper-card>
             <ion-accordion-group>
                 <ion-accordion v-for="(item, index) in saOystersItems" :key="index" :value="item.accordion">
-                    <sa-oysters-part
-                        :image-file-name="item.imageFileName"
+                    <gta-helper-part-view
+                        :image-file-name="`${directories.sanAndreas.collectibles.oysters}${item.imageFileName}`"
                         :part="item.part"
-                        @update:horse-shoes="updateCounter"
+                        :service="saOystersService"
+                        @update="updateCounter"
                     >
                         {{ item.title }}
-                    </sa-oysters-part>
+                    </gta-helper-part-view>
                 </ion-accordion>
             </ion-accordion-group>
         </template>
