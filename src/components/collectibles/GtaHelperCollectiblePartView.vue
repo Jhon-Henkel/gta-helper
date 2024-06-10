@@ -17,28 +17,33 @@ const props = defineProps(
         service: {
             type: Object as PropType<ICollectibleService>,
             required: true
+        },
+        onlyUnchecked: {
+            type: Boolean,
+            required: false,
+            default: false
         }
     }
 )
 
 const emmit = defineEmits(["update"])
-const items = props.service.getItemsPart(props.part)
+const items = ref(props.service.getItemsPart(props.part))
 const collectedItems = ref(0)
 
 function update(item: ICollectibleItem) {
-    items.forEach((it) => {
+    items.value.forEach((it) => {
         if (it.number === item.number) {
             it.collected = !it.collected
         }
     })
-    props.service.updateItemsPart(props.part, items)
+    props.service.updateItemsPart(props.part, items.value)
     updateCollectedItems()
-    emmit("update", items)
+    emmit("update", items.value)
 }
 
 function updateCollectedItems() {
     collectedItems.value = 0
-    items.forEach((item) => {
+    items.value.forEach((item) => {
         if (item.collected) {
             collectedItems.value++
         }
@@ -59,8 +64,8 @@ onMounted(() => {
     </ion-item>
     <div class="ion-padding" slot="content">
         <ion-img :src="imageFileName"/>
-        <ion-list>
-            <ion-item v-for="(item, index) in items" :key="index">
+        <ion-list v-for="(item, index) in items" :key="index">
+            <ion-item v-if="! onlyUnchecked || (onlyUnchecked && ! item.collected)">
                 <ion-checkbox slot="start" v-model="item.collected" @click="update(item)"/>
                 <ion-label>
                     {{ item.number }}

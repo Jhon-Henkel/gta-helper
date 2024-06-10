@@ -4,7 +4,7 @@ import GtaHelperPage from "@/components/page/GtaHelperPage.vue"
 import GtaHelperHeader from "@/components/header/GtaHelperHeader.vue"
 import GtaHelperCard from "@/components/card/GtaHelperCard.vue"
 import GtaHelperCollectiblePartView from "@/components/collectibles/GtaHelperCollectiblePartView.vue"
-import {IonAccordion, IonAccordionGroup} from "@ionic/vue"
+import {IonAccordion, IonAccordionGroup, IonButton} from "@ionic/vue"
 import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
 import {ICollectibleViewItem} from "@/views/sanAndreas/collectibles/iCollectibleViewItem"
 
@@ -33,6 +33,7 @@ const props = defineProps({
 
 const totalCollectedItems = ref()
 const percentage = ref()
+const onlyUnchecked = ref(true)
 
 function updateCounter() {
     totalCollectedItems.value = props.service.getSumOfCollectedItems()
@@ -58,12 +59,18 @@ onMounted(() => {
                     {{ totalCollectedItems }}/{{ totalItems }} ({{ percentage }}%)
                 </template>
             </gta-helper-card>
+            <div class="ion-text-end">
+                <ion-button fill="clear" @click="onlyUnchecked = !onlyUnchecked">
+                    Ver {{ onlyUnchecked ? 'Todos' : 'Somente Não Coletados' }}
+                </ion-button>
+            </div>
             <ion-accordion-group>
                 <ion-accordion v-for="(item, index) in items" :key="index" :value="item.accordion">
                     <gta-helper-collectible-part-view
                         :image-file-name="`${baseDirectory}${item.imageFileName}`"
                         :part="item.part"
                         :service="service"
+                        :onlyUnchecked="onlyUnchecked"
                         @update="updateCounter"
                     >
                         {{ item.title }}
