@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {saOystersService} from "@/services/collectibles/sanAndreas/saOystersService"
+import {saOystersService} from "@/services/collectibles/sanAndreas/oysters/saOystersService"
 import {saOystersItems} from "@/views/sanAndreas/collectibles/oysters/saOystersItems"
 import {directories} from "@/dataObjects/directories"
 import GtaHelperCollectiblePage from "@/components/collectibles/GtaHelperCollectiblePage.vue"

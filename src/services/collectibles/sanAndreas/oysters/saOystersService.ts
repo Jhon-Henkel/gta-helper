@@ -1,7 +1,7 @@
-import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
+import {ICollectibleItem} from "@/services/collectibles/iCollectibleItem"
 import {utilLocalStorage} from "@/services/util/utilLocalStorage"
-import {saOystersPartEnum} from "@/dataObjects/collectibles/sanAndreas/oysters/saOystersPartEnum"
-import {saOysters} from "@/dataObjects/collectibles/sanAndreas/oysters/saOysters"
+import {saOystersPartEnum} from "@/services/collectibles/sanAndreas/oysters/saOystersPartEnum"
+import {saOysters} from "@/services/collectibles/sanAndreas/oysters/saOysters"
 import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
 
 export const saOystersService: ICollectibleService = {

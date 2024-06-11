@@ -1,4 +1,4 @@
-import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
+import {ICollectibleItem} from "@/services/collectibles/iCollectibleItem"
 import {directories} from "@/dataObjects/directories"
 
 interface IVehicleList {

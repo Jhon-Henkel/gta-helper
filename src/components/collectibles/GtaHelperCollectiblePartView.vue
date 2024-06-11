@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {computed, onMounted, PropType, ref} from "vue"
 import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
-import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
+import {ICollectibleItem} from "@/services/collectibles/iCollectibleItem"
 import {IonItem, IonLabel, IonImg, IonCheckbox, IonList, IonNote} from "@ionic/vue"
 
 const props = defineProps(

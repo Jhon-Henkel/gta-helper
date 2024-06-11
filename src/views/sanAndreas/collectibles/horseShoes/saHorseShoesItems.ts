@@ -1,5 +1,5 @@
 import {ICollectibleViewItem} from "@/views/sanAndreas/collectibles/iCollectibleViewItem"
-import {saHorseShoesPartEnum} from "@/dataObjects/collectibles/sanAndreas/horseShoes/saHorseShoesPartEnum"
+import {saHorseShoesPartEnum} from "@/services/collectibles/sanAndreas/horseShoes/saHorseShoesPartEnum"
 
 export const saHorseShoesItems: Array<ICollectibleViewItem> = [
     {

@@ -1,88 +1,15 @@
-import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
+import {ICollectibleItem} from "@/services/collectibles/iCollectibleItem"
 
-interface iSaOystersShoes {
-    saOystersPartOne: Array<ICollectibleItem>
-    saOystersPartTwo: Array<ICollectibleItem>
-    saOystersPartThree: Array<ICollectibleItem>
-    saOystersPartFour: Array<ICollectibleItem>
+interface iSaPhoto {
+    saPhotoPartOne: Array<ICollectibleItem>
+    saPhotoPartTwo: Array<ICollectibleItem>
+    saPhotoPartThree: Array<ICollectibleItem>
+    saPhotoPartFour: Array<ICollectibleItem>
+    saPhotoPartFive: Array<ICollectibleItem>
 }
 
-export const saOysters: iSaOystersShoes = {
-    saOystersPartOne: [
-        {
-            number: 14,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 44,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 45,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 46,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 47,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 48,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 49,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 50,
-            description: "",
-            collected: false,
-            imageFileName: null
-        }
-    ],
-    saOystersPartTwo: [
-        {
-            number: 26,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 27,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 28,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 29,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
+export const saPhoto: iSaPhoto = {
+    saPhotoPartOne: [
         {
             number: 30,
             description: "",
@@ -155,60 +82,10 @@ export const saOysters: iSaOystersShoes = {
             collected: false,
             imageFileName: null
         },
-        {
-            number: 42,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 43,
-            description: "",
-            collected: false,
-            imageFileName: null
-        }
     ],
-    saOystersPartThree: [
-        {
-            number: 21,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 22,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 23,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 24,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 25,
-            description: "",
-            collected: false,
-            imageFileName: null
-        }
-    ],
-    saOystersPartFour: [
+    saPhotoPartTwo: [
         {
             number: 1,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 2,
             description: "",
             collected: false,
             imageFileName: null
@@ -221,6 +98,62 @@ export const saOysters: iSaOystersShoes = {
         },
         {
             number: 4,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 42,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 43,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 45,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 46,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 47,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 48,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 49,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 50,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+    ],
+    saPhotoPartThree: [
+        {
+            number: 2,
             description: "",
             collected: false,
             imageFileName: null
@@ -260,7 +193,47 @@ export const saOysters: iSaOystersShoes = {
             description: "",
             collected: false,
             imageFileName: null
+        }
+    ],
+    saPhotoPartFour: [
+        {
+            number: 22,
+            description: "",
+            collected: false,
+            imageFileName: null
         },
+        {
+            number: 23,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 26,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 27,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 28,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 29,
+            description: "",
+            collected: false,
+            imageFileName: null
+        }
+    ],
+    saPhotoPartFive: [
         {
             number: 11,
             description: "",
@@ -275,6 +248,12 @@ export const saOysters: iSaOystersShoes = {
         },
         {
             number: 13,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 14,
             description: "",
             collected: false,
             imageFileName: null
@@ -311,6 +290,30 @@ export const saOysters: iSaOystersShoes = {
         },
         {
             number: 20,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 21,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 24,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 25,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 44,
             description: "",
             collected: false,
             imageFileName: null

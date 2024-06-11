@@ -1,7 +1,7 @@
-import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
-import {graffiti} from "@/dataObjects/collectibles/sanAndreas/graffiti/graffiti"
+import {ICollectibleItem} from "@/services/collectibles/iCollectibleItem"
+import {graffiti} from "@/services/collectibles/sanAndreas/graffiti/graffiti"
 import {utilLocalStorage} from "@/services/util/utilLocalStorage"
-import {graffitiPartEnum} from "@/dataObjects/collectibles/sanAndreas/graffiti/graffitiPartEnum"
+import {graffitiPartEnum} from "@/services/collectibles/sanAndreas/graffiti/graffitiPartEnum"
 import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
 
 export const saGraffitiService: ICollectibleService = {

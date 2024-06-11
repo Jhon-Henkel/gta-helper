@@ -1,4 +1,4 @@
-import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
+import {ICollectibleItem} from "@/services/collectibles/iCollectibleItem"
 import {utilLocalStorage} from "@/services/util/utilLocalStorage"
 import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
 import {saVehiclesListEnum} from "@/services/collectibles/vehicles/sanAndreas/saVehiclesListEnum"

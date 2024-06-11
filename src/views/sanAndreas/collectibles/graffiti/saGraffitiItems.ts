@@ -1,4 +1,4 @@
-import {graffitiPartEnum} from "@/dataObjects/collectibles/sanAndreas/graffiti/graffitiPartEnum"
+import {graffitiPartEnum} from "@/services/collectibles/sanAndreas/graffiti/graffitiPartEnum"
 import {ICollectibleViewItem} from "@/views/sanAndreas/collectibles/iCollectibleViewItem"
 
 export const saGraffitiItems: Array<ICollectibleViewItem> = [

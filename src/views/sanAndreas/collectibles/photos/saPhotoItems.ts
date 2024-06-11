@@ -1,4 +1,4 @@
-import {saPhotoPartEnum} from "@/dataObjects/collectibles/sanAndreas/photo/saPhotoPartEnum"
+import {saPhotoPartEnum} from "@/services/collectibles/sanAndreas/photos/saPhotoPartEnum"
 import {ICollectibleViewItem} from "@/views/sanAndreas/collectibles/iCollectibleViewItem"
 
 export const saPhotosItems: Array<ICollectibleViewItem> = [

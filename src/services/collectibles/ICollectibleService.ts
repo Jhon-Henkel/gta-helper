@@ -1,4 +1,4 @@
-import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
+import {ICollectibleItem} from "@/services/collectibles/iCollectibleItem"
 
 export interface ICollectibleService {
     getItemsPart(part: string): Array<ICollectibleItem>

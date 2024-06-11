@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {saGraffitiItems} from "@/views/sanAndreas/collectibles/graffiti/saGraffitiItems"
-import {saGraffitiService} from "@/services/collectibles/sanAndreas/saGraffitiService"
+import {saGraffitiService} from "@/services/collectibles/sanAndreas/graffiti/saGraffitiService"
 import {directories} from "@/dataObjects/directories"
 import GtaHelperCollectiblePage from "@/components/collectibles/GtaHelperCollectiblePage.vue"
 </script>
