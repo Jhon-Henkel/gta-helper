@@ -61,7 +61,7 @@ onMounted(() => {
             </gta-helper-card>
             <div class="ion-text-end">
                 <ion-button fill="clear" @click="onlyUnchecked = !onlyUnchecked">
-                    Ver {{ onlyUnchecked ? 'Todos' : 'Somente Não Coletados' }}
+                    {{ onlyUnchecked ? 'Todos' : 'Somente Não Coletados' }}
                 </ion-button>
             </div>
             <ion-accordion-group>

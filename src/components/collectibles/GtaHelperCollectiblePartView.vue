@@ -66,7 +66,7 @@ onMounted(() => {
         <ion-img :src="imageFileName"/>
         <ion-list v-for="(item, index) in items" :key="index">
             <ion-item v-if="! onlyUnchecked || (onlyUnchecked && ! item.collected)">
-                <ion-checkbox slot="start" v-model="item.collected" @click="update(item)"/>
+                <ion-checkbox slot="start" v-model="item.collected" @change="update(item)"/>
                 <ion-label>
                     {{ item.number }}
                     <p>{{ item.description }}</p>
