@@ -42,12 +42,22 @@ const items = computed(() => {
 })
 
 function update(item: ICollectibleItem) {
-    console.log()
     items.value.forEach((it) => {
         if (it.number === item.number) {
             it.collected = !it.collected
         }
     })
+    afterUpdate()
+}
+
+function updateAllItems(value: boolean) {
+    items.value.forEach((item) => {
+        item.collected = value
+    })
+    afterUpdate()
+}
+
+function afterUpdate() {
     props.service.updateItemsPart(props.part, items.value)
     updateCollectedItems()
     emmit("update", items.value)
@@ -91,6 +101,18 @@ onMounted(() => {
                 </ion-label>
             </ion-item>
         </ion-list>
+        <ion-button
+            color="primary"
+            expand="block"
+            fill="outline"
+            class="ion-padding-top"
+            @click="updateAllItems(true)"
+        >
+            Marcar todos
+        </ion-button>
+        <ion-button color="danger" expand="block" fill="outline" @click="updateAllItems(false)">
+            Desmarcar todos
+        </ion-button>
     </div>
 </template>
 
