@@ -2,7 +2,7 @@
 import {computed, onMounted, PropType, ref} from "vue"
 import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
 import {ICollectibleItem} from "@/services/collectibles/iCollectibleItem"
-import {IonItem, IonLabel, IonImg, IonCheckbox, IonList, IonNote} from "@ionic/vue"
+import {IonItem, IonLabel, IonImg, IonCheckbox, IonList, IonNote, IonButton} from "@ionic/vue"
 
 const props = defineProps(
     {
@@ -33,13 +33,7 @@ const props = defineProps(
 
 const emmit = defineEmits(["update"])
 const collectedItems = ref(0)
-const items = computed(() => {
-    return ref(props.service.getItemsPart(props.part)).value.map(item => {
-        return {
-            ...item
-        }
-    })
-})
+const items = ref(props.service.getItemsPart(props.part))
 
 function update(item: ICollectibleItem) {
     items.value.forEach((it) => {
@@ -88,7 +82,7 @@ onMounted(() => {
         <ion-img :src="imageFileName"/>
         <ion-list v-for="(item, index) in items" :key="index">
             <ion-item v-show="! onlyUnchecked || (onlyUnchecked && ! item.collected)">
-                <ion-checkbox slot="start" :checked="item.collected" @click="update(item)"/>
+                <ion-checkbox slot="start" :checked="item.collected" @ionChange="update(item)"/>
                 <ion-img v-show="item.imageFileName" :src="item.imageFileName ?? ''" class="item-image"/>
                 <ion-label>
                     <ion-label v-if="showNumber">
@@ -106,11 +100,19 @@ onMounted(() => {
             expand="block"
             fill="outline"
             class="ion-padding-top"
+            v-show="collectedItems < items.length"
             @click="updateAllItems(true)"
         >
             Marcar todos
         </ion-button>
-        <ion-button color="danger" expand="block" fill="outline" @click="updateAllItems(false)">
+        <ion-button
+            color="danger"
+            expand="block"
+            fill="outline"
+            :class="collectedItems < items.length ? '' : 'ion-padding-top'"
+            v-show="collectedItems > 0"
+            @click="updateAllItems(false)"
+        >
             Desmarcar todos
         </ion-button>
     </div>
