@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import {onMounted, PropType, ref} from "vue"
+import {computed, onMounted, PropType, ref} from "vue"
 import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
 import {ICollectibleItem} from "@/dataObjects/collectibles/iCollectibleItem"
-import {IonItem, IonLabel, IonImg, IonCheckbox, IonList} from "@ionic/vue"
+import {IonItem, IonLabel, IonImg, IonCheckbox, IonList, IonNote} from "@ionic/vue"
 
 const props = defineProps(
     {
@@ -22,15 +22,27 @@ const props = defineProps(
             type: Boolean,
             required: false,
             default: false
+        },
+        showNumber: {
+            type: Boolean,
+            required: false,
+            default: true
         }
     }
 )
 
 const emmit = defineEmits(["update"])
-const items = ref(props.service.getItemsPart(props.part))
 const collectedItems = ref(0)
+const items = computed(() => {
+    return ref(props.service.getItemsPart(props.part)).value.map(item => {
+        return {
+            ...item
+        }
+    })
+})
 
 function update(item: ICollectibleItem) {
+    console.log()
     items.value.forEach((it) => {
         if (it.number === item.number) {
             it.collected = !it.collected
@@ -65,13 +77,27 @@ onMounted(() => {
     <div class="ion-padding" slot="content">
         <ion-img :src="imageFileName"/>
         <ion-list v-for="(item, index) in items" :key="index">
-            <ion-item v-if="! onlyUnchecked || (onlyUnchecked && ! item.collected)">
-                <ion-checkbox slot="start" v-model="item.collected" @change="update(item)"/>
+            <ion-item v-show="! onlyUnchecked || (onlyUnchecked && ! item.collected)">
+                <ion-checkbox slot="start" :checked="item.collected" @click="update(item)"/>
+                <ion-img v-show="item.imageFileName" :src="item.imageFileName ?? ''" class="item-image"/>
                 <ion-label>
-                    {{ item.number }}
-                    <p>{{ item.description }}</p>
+                    <ion-label v-if="showNumber">
+                        {{ item.number }}
+                        <ion-note v-show="item.description.length > 0"> - {{ item.description }}</ion-note>
+                    </ion-label>
+                    <ion-label v-else>
+                        <ion-note v-show="item.description.length > 0">{{ item.description }}</ion-note>
+                    </ion-label>
                 </ion-label>
             </ion-item>
         </ion-list>
     </div>
 </template>
+
+<style scoped>
+.item-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+</style>

@@ -28,6 +28,11 @@ const props = defineProps({
     headerTitle: {
         type: String,
         required: true
+    },
+    showNumber: {
+        type: Boolean,
+        required: false,
+        default: true
     }
 })
 
@@ -71,6 +76,7 @@ onMounted(() => {
                         :part="item.part"
                         :service="service"
                         :onlyUnchecked="onlyUnchecked"
+                        :show-number="showNumber"
                         @update="updateCounter"
                     >
                         {{ item.title }}
