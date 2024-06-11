@@ -11,7 +11,7 @@ export const saHorseShoes: iSaHorseShoes = {
     saHorseShoesPartOne: [
         {
             number: 1,
-            description: "",
+            description: "No meio do pórtico de Las Venturas",
             collected: false,
         },
         {
@@ -21,7 +21,7 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 3,
-            description: "",
+            description: "Em cima da casa de Golf",
             collected: false,
         },
         {
@@ -31,7 +31,7 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 5,
-            description: "",
+            description: "Dentro da quadra",
             collected: false,
         },
         {
@@ -66,24 +66,24 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 22,
-            description: "",
+            description: "No chão",
             collected: false,
         },
     ],
     saHorseShoesPartTwo: [
         {
             number: 23,
-            description: "",
+            description: "No Chão",
             collected: false,
         },
         {
             number: 24,
-            description: "",
+            description: "No Chão",
             collected: false,
         },
         {
             number: 25,
-            description: "",
+            description: "No Chão",
             collected: false,
         },
         {
@@ -103,7 +103,7 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 29,
-            description: "",
+            description: "Em baixo da ponte",
             collected: false,
         },
         {
@@ -125,7 +125,7 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 33,
-            description: "",
+            description: "Em cima da placa do cassino",
             collected: false,
         },
         {
@@ -145,12 +145,12 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 37,
-            description: "",
+            description: "Em cima da pirâmide",
             collected: false,
         },
         {
             number: 38,
-            description: "",
+            description: "Em cima do portico egípcio",
             collected: false,
         },
         {
@@ -172,17 +172,17 @@ export const saHorseShoes: iSaHorseShoes = {
     saHorseShoesPartFour: [
         {
             number: 6,
-            description: "",
+            description: "No chão",
             collected: false,
         },
         {
             number: 7,
-            description: "",
+            description: "Em cima do lixo",
             collected: false,
         },
         {
             number: 8,
-            description: "",
+            description: "Na piscina",
             collected: false,
         },
         {
@@ -222,12 +222,12 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 42,
-            description: "",
+            description: "Na cascata",
             collected: false,
         },
         {
             number: 43,
-            description: "",
+            description: "Em cima do cassino",
             collected: false,
         },
         {
@@ -247,7 +247,7 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 47,
-            description: "",
+            description: "Em cima do outdoor",
             collected: false,
         },
         {
@@ -262,7 +262,7 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 50,
-            description: "",
+            description: "Dentro do túnel do trem (subterrâneo)",
             collected: false,
         },
     ]
