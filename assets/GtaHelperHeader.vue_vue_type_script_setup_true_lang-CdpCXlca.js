@@ -1,1 +1,0 @@
-import{d as o,o as n,c as l,w as e,a,u as t,H as s,b as u,t as c,J as i,K as d}from"./index-DDnqC3M-.js";const m=o({__name:"GtaHelperHeader",props:{title:{type:String,required:!0}},setup(r){return(p,_)=>(n(),l(t(d),null,{default:e(()=>[a(t(i),null,{default:e(()=>[a(t(s),null,{default:e(()=>[u(c(r.title),1)]),_:1})]),_:1})]),_:1}))}});export{m as _};
