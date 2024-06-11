@@ -5,6 +5,7 @@ export const directories = {
             photos: './public/assets/images/sanAndreas/collectibles/photos/',
             horseShoes: './public/assets/images/sanAndreas/collectibles/horse-shoes/',
             oysters: './public/assets/images/sanAndreas/collectibles/oysters/',
+            vehicles: './public/assets/images/sanAndreas/collectibles/vehicles/',
         }
     }
 }

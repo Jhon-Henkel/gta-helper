@@ -63,9 +63,9 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Escolas'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Importação/Exportação de Veículos'
+        routeName: 'sa-import-vehicles',
+        icon: `${iconsDir.sanAndreas}car.png`,
+        label: 'Importação de Veículos'
     },
     {
         routeName: 'in-development',
