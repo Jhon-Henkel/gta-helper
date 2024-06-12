@@ -1,7 +1,7 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
 import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
-export const caligulasHeitMissions: Array<IMissionItem> = [
+export const saCaligulasHeitMissions: Array<IMissionItem> = [
     {
         title: "1 - Espionagem Arquitetônica",
         description: "Podes preparar-te para um assalto a um casino. Vai ao departamento de planejamento, prepara a " +

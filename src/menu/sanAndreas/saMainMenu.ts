@@ -64,7 +64,7 @@ export const saMainMenuItems: Array<iMenuItem> = [
     },
     {
         routeName: 'sa-import-vehicles',
-        icon: `${iconsDir.sanAndreas}car.png`,
+        icon: `${iconsDir.sanAndreas}car_red.png`,
         label: 'Importação de Veículos'
     },
     {

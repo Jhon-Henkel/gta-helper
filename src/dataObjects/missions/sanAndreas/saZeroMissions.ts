@@ -1,7 +1,7 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
 import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
-export const zeroMissions: Array<IMissionItem> = [
+export const saZeroMissions: Array<IMissionItem> = [
     {
         title: "1 - Ataque Aéreo",
         description: "Compra zero RC store-30 mil dólares. Usando o mini-gun para proteger a antena de aviões " +

@@ -1,7 +1,7 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
 import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
-export const badlandsMissions: Array<IMissionItem> = [
+export const saBadlandsMissions: Array<IMissionItem> = [
     {
         title: "29 - Terra de Ninguém",
         description: "Depois da missão anterior, Sweet vai para o hospital e você terá que fazer missões para o " +

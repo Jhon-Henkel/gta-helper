@@ -1,7 +1,7 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
 import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
-export const lasVenturasMissions: Array<IMissionItem> = [
+export const saLasVenturasMissions: Array<IMissionItem> = [
     {
         title: "65 - Ketchup no Capô",
         description: "Nessa missão você terá que aterrorizar um mafioso que foi preso ao capô do seu carro. Para " +

@@ -1,7 +1,7 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
 import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
-export const sanFierroMissions: Array<IMissionItem> = [
+export const saSanFierroMissions: Array<IMissionItem> = [
     {
         title: "39 - Use Flores No Seu Cabelo",
         description: "Pegue o carro e vá com Truth aos locais indicados no mapa, chegando nos locais, aperte L3 para " +

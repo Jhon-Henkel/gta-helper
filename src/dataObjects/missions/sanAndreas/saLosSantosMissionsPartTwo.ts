@@ -1,7 +1,7 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
 import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
-export const losSantosMissionsPartTwo: Array<IMissionItem> = [
+export const saLosSantosMissionsPartTwo: Array<IMissionItem> = [
     {
         title: "78 - Pássaro vertical",
         description: "Kent Paul, que antes cuidava dos ensaios da banda Love First em Vice City, agora está " +

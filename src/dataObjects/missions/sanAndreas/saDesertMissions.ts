@@ -1,7 +1,7 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
 import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
-export const desertMissions: Array<IMissionItem> = [
+export const saDesertMissions: Array<IMissionItem> = [
     {
         title: "57 - Monster",
         description: "Depois de atender o telefonema de Toreno, siga para Tierra Robada em Las Venturras, entre " +

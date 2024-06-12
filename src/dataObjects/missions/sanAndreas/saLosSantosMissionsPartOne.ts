@@ -1,7 +1,7 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
 import {iconsDir} from "@/dataObjects/missions/iconsDir"
 
-export const losSantosMissionsPartOne: Array<IMissionItem> = [
+export const saLosSantosMissionsPartOne: Array<IMissionItem> = [
     {
         title: "1 - Big Smoke",
         description: "Pegue a bike no beco e siga para a casa de CJ, ponto CJ indicado no mapa. Aperte X " +
