@@ -17,7 +17,7 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 2,
-            description: "",
+            description: "Na frente da porta da casa",
             collected: false,
             imageFileName: null
         },
@@ -29,49 +29,49 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 4,
-            description: "",
+            description: "Dentro da piscina",
             collected: false,
             imageFileName: null
         },
         {
             number: 5,
-            description: "Dentro da quadra",
+            description: "Dentro da quadra de tênis",
             collected: false,
             imageFileName: null
         },
         {
             number: 16,
-            description: "",
+            description: "Em cima do telhado",
             collected: false,
             imageFileName: null
         },
         {
             number: 17,
-            description: "",
+            description: "Em cima do telhado, ao lado da placa 'cassino'",
             collected: false,
             imageFileName: null
         },
         {
             number: 18,
-            description: "",
+            description: "Em cima do contêiner",
             collected: false,
             imageFileName: null
         },
         {
             number: 19,
-            description: "",
+            description: "Em cima do muro",
             collected: false,
             imageFileName: null
         },
         {
             number: 20,
-            description: "",
+            description: "No chão, do lado de dentro do muro",
             collected: false,
             imageFileName: null
         },
         {
             number: 21,
-            description: "",
+            description: "Logo na frente do estabelecimento",
             collected: false,
             imageFileName: null
         },
@@ -103,19 +103,19 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 26,
-            description: "",
+            description: "Ao lado da parede",
             collected: false,
             imageFileName: null
         },
         {
             number: 27,
-            description: "",
+            description: "Na rampa de carga",
             collected: false,
             imageFileName: null
         },
         {
             number: 28,
-            description: "",
+            description: "Em cima da igreja",
             collected: false,
             imageFileName: null
         },
@@ -127,7 +127,7 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 32,
-            description: "",
+            description: "Em cima do cassino",
             collected: false,
             imageFileName: null
         },
@@ -135,13 +135,13 @@ export const saHorseShoes: iSaHorseShoes = {
     saHorseShoesPartThree: [
         {
             number: 30,
-            description: "",
+            description: "Na parte de trás da casa",
             collected: false,
             imageFileName: null
         },
         {
             number: 31,
-            description: "",
+            description: "Na parte de trás da casa",
             collected: false,
             imageFileName: null
         },
@@ -153,19 +153,19 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 34,
-            description: "",
+            description: "Em cima da igreja",
             collected: false,
             imageFileName: null
         },
         {
             number: 35,
-            description: "",
+            description: "Em cima do lixo",
             collected: false,
             imageFileName: null
         },
         {
             number: 36,
-            description: "",
+            description: "Em cima de uma torre",
             collected: false,
             imageFileName: null
         },
@@ -183,19 +183,19 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 39,
-            description: "",
+            description: "Em uma sacada",
             collected: false,
             imageFileName: null
         },
         {
             number: 40,
-            description: "",
+            description: "No 3º andar do estacionamento",
             collected: false,
             imageFileName: null
         },
         {
             number: 41,
-            description: "",
+            description: "Bem na ponta",
             collected: false,
             imageFileName: null
         },
@@ -209,7 +209,7 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 7,
-            description: "Em cima do lixo",
+            description: "No chão em cima da calcada",
             collected: false,
             imageFileName: null
         },
@@ -221,43 +221,43 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 9,
-            description: "",
+            description: "Na frente da garagem, ao lado do muro",
             collected: false,
             imageFileName: null
         },
         {
             number: 10,
-            description: "",
+            description: "Entre os dois estabelecimentos, ao lado da base do outdoor",
             collected: false,
             imageFileName: null
         },
         {
             number: 11,
-            description: "",
+            description: "Em cima da torre",
             collected: false,
             imageFileName: null
         },
         {
             number: 12,
-            description: "",
+            description: "No lado de dentro do muro",
             collected: false,
             imageFileName: null
         },
         {
             number: 13,
-            description: "",
+            description: "Em cima do estabelecimento",
             collected: false,
             imageFileName: null
         },
         {
             number: 14,
-            description: "",
+            description: "Ao lado do muro azul",
             collected: false,
             imageFileName: null
         },
         {
             number: 15,
-            description: "",
+            description: "No corredor do 2º piso",
             collected: false,
             imageFileName: null
         },
@@ -275,19 +275,19 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 44,
-            description: "",
+            description: "No corredor",
             collected: false,
             imageFileName: null
         },
         {
             number: 45,
-            description: "",
+            description: "Em cima do telhado",
             collected: false,
             imageFileName: null
         },
         {
             number: 46,
-            description: "",
+            description: "No corredor do 2º piso",
             collected: false,
             imageFileName: null
         },
@@ -299,13 +299,13 @@ export const saHorseShoes: iSaHorseShoes = {
         },
         {
             number: 48,
-            description: "",
+            description: "Na frente do letreiro luminoso do cassino",
             collected: false,
             imageFileName: null
         },
         {
             number: 49,
-            description: "",
+            description: "Em cima do telhado",
             collected: false,
             imageFileName: null
         },

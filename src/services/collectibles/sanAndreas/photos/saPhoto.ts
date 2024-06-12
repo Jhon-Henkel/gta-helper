@@ -12,73 +12,73 @@ export const saPhoto: iSaPhoto = {
     saPhotoPartOne: [
         {
             number: 30,
-            description: "",
+            description: "Em cima do submarino",
             collected: false,
             imageFileName: null
         },
         {
             number: 31,
-            description: "",
+            description: "Na placa do pier 69",
             collected: false,
             imageFileName: null
         },
         {
             number: 32,
-            description: "",
+            description: "No Monte de terra dentro do mar",
             collected: false,
             imageFileName: null
         },
         {
             number: 33,
-            description: "",
+            description: "No topo da torre da ponte",
             collected: false,
             imageFileName: null
         },
         {
             number: 34,
-            description: "",
+            description: "Na torre do relógio",
             collected: false,
             imageFileName: null
         },
         {
             number: 35,
-            description: "",
+            description: "No meio da torre da ponte",
             collected: false,
             imageFileName: null
         },
         {
             number: 36,
-            description: "",
+            description: "No topo da antena",
             collected: false,
             imageFileName: null
         },
         {
             number: 37,
-            description: "",
+            description: "No meio do prédio",
             collected: false,
             imageFileName: null
         },
         {
             number: 38,
-            description: "",
+            description: "No meio do prédio acima do túnel",
             collected: false,
             imageFileName: null
         },
         {
             number: 39,
-            description: "",
+            description: "No meio da trilha em zig-zag",
             collected: false,
             imageFileName: null
         },
         {
             number: 40,
-            description: "",
+            description: "Na estátua do parque",
             collected: false,
             imageFileName: null
         },
         {
             number: 41,
-            description: "",
+            description: "No meio do monumento de DNA, dentro do prédio",
             collected: false,
             imageFileName: null
         },
@@ -86,67 +86,67 @@ export const saPhoto: iSaPhoto = {
     saPhotoPartTwo: [
         {
             number: 1,
-            description: "",
+            description: "Em cima da ponte",
             collected: false,
             imageFileName: null
         },
         {
             number: 3,
-            description: "",
+            description: "No meio dos dois tanques de combustível",
             collected: false,
             imageFileName: null
         },
         {
             number: 4,
-            description: "",
+            description: "No topo da torre de comunicação",
             collected: false,
             imageFileName: null
         },
         {
             number: 42,
-            description: "",
+            description: "No meio dos prédios",
             collected: false,
             imageFileName: null
         },
         {
             number: 43,
-            description: "",
+            description: "Em cima do prédio",
             collected: false,
             imageFileName: null
         },
         {
             number: 45,
-            description: "",
+            description: "Em cima do guindaste",
             collected: false,
             imageFileName: null
         },
         {
             number: 46,
-            description: "",
+            description: "Dentro da estação de trem",
             collected: false,
             imageFileName: null
         },
         {
             number: 47,
-            description: "",
+            description: "Entre as duas caixas d'água",
             collected: false,
             imageFileName: null
         },
         {
             number: 48,
-            description: "",
+            description: "Em cima do galpão",
             collected: false,
             imageFileName: null
         },
         {
             number: 49,
-            description: "",
+            description: "Em cima da placa X",
             collected: false,
             imageFileName: null
         },
         {
             number: 50,
-            description: "",
+            description: "No návio militar",
             collected: false,
             imageFileName: null
         },
@@ -154,43 +154,43 @@ export const saPhoto: iSaPhoto = {
     saPhotoPartThree: [
         {
             number: 2,
-            description: "",
+            description: "Na placa do aeroporto",
             collected: false,
             imageFileName: null
         },
         {
             number: 5,
-            description: "",
+            description: "Em cima da estação",
             collected: false,
             imageFileName: null
         },
         {
             number: 6,
-            description: "",
+            description: "Em cima dos prédios redondos",
             collected: false,
             imageFileName: null
         },
         {
             number: 7,
-            description: "",
+            description: "No meio da antena",
             collected: false,
             imageFileName: null
         },
         {
             number: 8,
-            description: "",
+            description: "Em cima da ponte",
             collected: false,
             imageFileName: null
         },
         {
             number: 9,
-            description: "",
+            description: "Em cima da torre",
             collected: false,
             imageFileName: null
         },
         {
             number: 10,
-            description: "",
+            description: "Na quadra de tênis",
             collected: false,
             imageFileName: null
         }
@@ -198,37 +198,37 @@ export const saPhoto: iSaPhoto = {
     saPhotoPartFour: [
         {
             number: 22,
-            description: "",
+            description: "No meio da placa no formato de rosquinha",
             collected: false,
             imageFileName: null
         },
         {
             number: 23,
-            description: "",
+            description: "Na frente do estabelecimento azul",
             collected: false,
             imageFileName: null
         },
         {
             number: 26,
-            description: "",
+            description: "Pórtico chinês",
             collected: false,
             imageFileName: null
         },
         {
             number: 27,
-            description: "",
+            description: "Na placa do hambúrguer",
             collected: false,
             imageFileName: null
         },
         {
             number: 28,
-            description: "",
+            description: "Na torre da ponte",
             collected: false,
             imageFileName: null
         },
         {
             number: 29,
-            description: "",
+            description: "No topo do navio",
             collected: false,
             imageFileName: null
         }
@@ -236,85 +236,85 @@ export const saPhoto: iSaPhoto = {
     saPhotoPartFive: [
         {
             number: 11,
-            description: "",
+            description: "No topo do prédio",
             collected: false,
             imageFileName: null
         },
         {
             number: 12,
-            description: "",
+            description: "Em cima das árvores",
             collected: false,
             imageFileName: null
         },
         {
             number: 13,
-            description: "",
+            description: "Em cima do Hippy Shopper",
             collected: false,
             imageFileName: null
         },
         {
             number: 14,
-            description: "",
+            description: "Em cima da faixa que atravessa a rua",
             collected: false,
             imageFileName: null
         },
         {
             number: 15,
-            description: "",
+            description: "Na placa da construtora",
             collected: false,
             imageFileName: null
         },
         {
             number: 16,
-            description: "",
+            description: "Na placa do cinema 'The wizard of ass'",
             collected: false,
             imageFileName: null
         },
         {
             number: 17,
-            description: "",
+            description: "No campo de baseball",
             collected: false,
             imageFileName: null
         },
         {
             number: 18,
-            description: "",
+            description: "Na frente do prédio",
             collected: false,
             imageFileName: null
         },
         {
             number: 19,
-            description: "",
+            description: "No meio do prédio",
             collected: false,
             imageFileName: null
         },
         {
             number: 20,
-            description: "",
+            description: "Na frente do monumento, no meio dos pilares",
             collected: false,
             imageFileName: null
         },
         {
             number: 21,
-            description: "",
+            description: "Em cima da cúpula",
             collected: false,
             imageFileName: null
         },
         {
             number: 24,
-            description: "",
+            description: "Em cima da chaminé",
             collected: false,
             imageFileName: null
         },
         {
             number: 25,
-            description: "",
+            description: "Em cima do telhado chinês",
             collected: false,
             imageFileName: null
         },
         {
             number: 44,
-            description: "",
+            description: "Em cima da torre",
             collected: false,
             imageFileName: null
         }
