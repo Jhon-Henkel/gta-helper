@@ -26,7 +26,7 @@ export const saVehiclesService: ICollectibleService = {
     },
     getSumOfCollectedItems: function(): number {
         const partOne: Array<ICollectibleItem> = this.getItemsPart(saVehiclesListEnum.listOne)
-        let allParts: Array<ICollectibleItem> = partOne.concat(
+        const allParts: Array<ICollectibleItem> = partOne.concat(
             this.getItemsPart(saVehiclesListEnum.listTwo),
             this.getItemsPart(saVehiclesListEnum.listThree),
         )

@@ -9,7 +9,7 @@
         "preview": "vite preview",
         "test:e2e": "cypress run",
         "test:unit": "vitest",
-        "lint": "eslint gta-helper"
+        "lint": "eslint ."
     },
     "dependencies": {
         "@capacitor/app": "6.0.0",
@@ -26,18 +26,18 @@
     "devDependencies": {
         "@capacitor/cli": "6.0.0",
         "@vitejs/plugin-legacy": "^5.0.0",
-        "@vitejs/plugin-vue": "^4.0.0",
-        "@vue/eslint-config-typescript": "^12.0.0",
-        "@vue/test-utils": "^2.3.0",
+        "@vitejs/plugin-vue": "^5",
+        "@vue/eslint-config-typescript": "^13",
+        "@vue/test-utils": "^2",
         "cypress": "^13.5.0",
-        "eslint": "^8.35.0",
-        "eslint-plugin-vue": "^9.9.0",
-        "jsdom": "^22.1.0",
+        "eslint": "^8",
+        "eslint-plugin-vue": "^9",
+        "jsdom": "^24.1.0",
         "terser": "^5.4.0",
-        "typescript": "^5.1.6",
-        "vite": "^5.0.0",
-        "vitest": "^0.34.6",
-        "vue-tsc": "^1.0.24"
+        "typescript": "^5.4",
+        "vite": "^5.2.12",
+        "vitest": "^1",
+        "vue-tsc": "^2"
     },
     "description": "An Ionic project"
 }

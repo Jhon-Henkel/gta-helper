@@ -22,7 +22,7 @@ const props = defineProps({
         required: true
     },
     items: {
-        type: Array as PropType<Array<ICollectibleViewItem>>,
+        type: Array<ICollectibleViewItem>,
         required: true
     },
     headerTitle: {
@@ -33,6 +33,19 @@ const props = defineProps({
         type: Boolean,
         required: false,
         default: true
+    },
+    mapImageFileName: {
+        type: String,
+        required: true
+    },
+    showItemsCount: {
+        type: Boolean,
+        required: false,
+        default: true
+    },
+    itemEnum: {
+        type: String,
+        required: true
     }
 })
 
@@ -41,7 +54,7 @@ const percentage = ref()
 const onlyUnchecked = ref(true)
 
 function updateCounter() {
-    totalCollectedItems.value = props.service.getSumOfCollectedItems()
+    totalCollectedItems.value = props.service.getSumOfCollectedItems(props.itemEnum)
     percentage.value = parseInt(String((totalCollectedItems.value / props.totalItems) * 100))
 }
 
@@ -64,6 +77,7 @@ onMounted(() => {
                     {{ totalCollectedItems }}/{{ totalItems }} ({{ percentage }}%)
                 </template>
             </gta-helper-card>
+            <iframe :src="mapImageFileName" width="100%" height="300px" allowfullscreen/>
             <div class="ion-text-end">
                 <ion-button fill="clear" @click="onlyUnchecked = !onlyUnchecked">
                     {{ onlyUnchecked ? 'Todos' : 'Somente Não Coletados' }}
@@ -77,6 +91,7 @@ onMounted(() => {
                         :service="service"
                         :onlyUnchecked="onlyUnchecked"
                         :show-number="showNumber"
+                        :show-items-count="showItemsCount"
                         @update="updateCounter"
                     >
                         {{ item.title }}

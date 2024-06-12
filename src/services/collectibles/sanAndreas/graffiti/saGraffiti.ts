@@ -1,16 +1,11 @@
 import {ICollectibleItem} from "../../iCollectibleItem"
 
 interface iGraffiti {
-    saGrafitiPartOne: Array<ICollectibleItem>
-    saGrafitiPartTwo: Array<ICollectibleItem>
-    saGrafitiPartThree: Array<ICollectibleItem>
-    saGrafitiPartFour: Array<ICollectibleItem>
-    saGrafitiPartFive: Array<ICollectibleItem>
-    saGrafitiPartSix: Array<ICollectibleItem>
+    saGrafitiItems: Array<ICollectibleItem>
 }
 
-export const graffiti: iGraffiti = {
-    saGrafitiPartOne: [
+export const saGraffiti: iGraffiti = {
+    saGrafitiItems: [
         {
             number: 1,
             description: "",
@@ -66,6 +61,288 @@ export const graffiti: iGraffiti = {
             imageFileName: null
         },
         {
+            number: 10,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 11,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 12,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 13,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 14,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 15,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 16,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 17,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 18,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 19,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 20,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 21,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 22,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 23,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 24,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 25,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 26,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 27,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 28,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 29,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 30,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 31,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 32,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 33,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 34,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 35,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 36,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 37,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 38,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 39,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 40,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 41,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 42,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 43,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 44,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 45,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 46,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 47,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 48,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 49,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 50,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 51,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 52,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 53,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 54,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 55,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 56,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
             number: 57,
             description: "",
             collected: false,
@@ -103,6 +380,24 @@ export const graffiti: iGraffiti = {
         },
         {
             number: 63,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 64,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 65,
+            description: "",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 66,
             description: "",
             collected: false,
             imageFileName: null
@@ -244,56 +539,6 @@ export const graffiti: iGraffiti = {
             description: "",
             collected: false,
             imageFileName: null
-        }
-    ],
-    saGrafitiPartTwo: [
-        {
-            number: 17,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 18,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 19,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 26,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 27,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 28,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 29,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 30,
-            description: "",
-            collected: false,
-            imageFileName: null
         },
         {
             number: 90,
@@ -357,266 +602,6 @@ export const graffiti: iGraffiti = {
         },
         {
             number: 100,
-            description: "",
-            collected: false,
-            imageFileName: null
-        }
-    ],
-    saGrafitiPartThree: [
-        {
-            number: 10,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 11,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 12,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 13,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 14,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 15,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 16,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 44,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 46,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 47,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 48,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 49,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 50,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 51,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 52,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 53,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 54,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 55,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 56,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 64,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 65,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 66,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-    ],
-    saGrafitiPartFour: [
-        {
-            number: 20,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 21,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 22,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 23,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 24,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 25,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 31,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 32,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-    ],
-    saGrafitiPartFive: [
-        {
-            number: 38,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 39,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 40,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 41,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 42,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 43,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 45,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-    ],
-    saGrafitiPartSix: [
-        {
-            number: 33,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 34,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 35,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 36,
-            description: "",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 37,
             description: "",
             collected: false,
             imageFileName: null

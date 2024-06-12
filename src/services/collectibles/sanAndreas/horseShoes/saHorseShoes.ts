@@ -1,14 +1,11 @@
 import {ICollectibleItem} from "@/services/collectibles/iCollectibleItem"
 
 interface iSaHorseShoes {
-    saHorseShoesPartOne: Array<ICollectibleItem>
-    saHorseShoesPartTwo: Array<ICollectibleItem>
-    saHorseShoesPartThree: Array<ICollectibleItem>
-    saHorseShoesPartFour: Array<ICollectibleItem>
+    saHorseShoesItems: Array<ICollectibleItem>
 }
 
 export const saHorseShoes: iSaHorseShoes = {
-    saHorseShoesPartOne: [
+    saHorseShoesItems: [
         {
             number: 1,
             description: "No meio do pórtico de Las Venturas",
@@ -39,168 +36,6 @@ export const saHorseShoes: iSaHorseShoes = {
             collected: false,
             imageFileName: null
         },
-        {
-            number: 16,
-            description: "Em cima do telhado",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 17,
-            description: "Em cima do telhado, ao lado da placa 'cassino'",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 18,
-            description: "Em cima do contêiner",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 19,
-            description: "Em cima do muro",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 20,
-            description: "No chão, do lado de dentro do muro",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 21,
-            description: "Logo na frente do estabelecimento",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 22,
-            description: "No chão",
-            collected: false,
-            imageFileName: null
-        },
-    ],
-    saHorseShoesPartTwo: [
-        {
-            number: 23,
-            description: "No Chão",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 24,
-            description: "No Chão",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 25,
-            description: "No Chão",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 26,
-            description: "Ao lado da parede",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 27,
-            description: "Na rampa de carga",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 28,
-            description: "Em cima da igreja",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 29,
-            description: "Em baixo da ponte",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 32,
-            description: "Em cima do cassino",
-            collected: false,
-            imageFileName: null
-        },
-    ],
-    saHorseShoesPartThree: [
-        {
-            number: 30,
-            description: "Na parte de trás da casa",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 31,
-            description: "Na parte de trás da casa",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 33,
-            description: "Em cima da placa do cassino",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 34,
-            description: "Em cima da igreja",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 35,
-            description: "Em cima do lixo",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 36,
-            description: "Em cima de uma torre",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 37,
-            description: "Em cima da pirâmide",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 38,
-            description: "Em cima do portico egípcio",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 39,
-            description: "Em uma sacada",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 40,
-            description: "No 3º andar do estacionamento",
-            collected: false,
-            imageFileName: null
-        },
-        {
-            number: 41,
-            description: "Bem na ponta",
-            collected: false,
-            imageFileName: null
-        },
-    ],
-    saHorseShoesPartFour: [
         {
             number: 6,
             description: "No chão",
@@ -258,6 +93,162 @@ export const saHorseShoes: iSaHorseShoes = {
         {
             number: 15,
             description: "No corredor do 2º piso",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 16,
+            description: "Em cima do telhado",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 17,
+            description: "Em cima do telhado, ao lado da placa 'cassino'",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 18,
+            description: "Em cima do contêiner",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 19,
+            description: "Em cima do muro",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 20,
+            description: "No chão, do lado de dentro do muro",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 21,
+            description: "Logo na frente do estabelecimento",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 22,
+            description: "No chão",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 23,
+            description: "No Chão",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 24,
+            description: "No Chão",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 25,
+            description: "No Chão",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 26,
+            description: "Ao lado da parede",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 27,
+            description: "Na rampa de carga",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 28,
+            description: "Em cima da igreja",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 29,
+            description: "Em baixo da ponte",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 30,
+            description: "Na parte de trás da casa",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 31,
+            description: "Na parte de trás da casa",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 32,
+            description: "Em cima do cassino",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 33,
+            description: "Em cima da placa do cassino",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 34,
+            description: "Em cima da igreja",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 35,
+            description: "Em cima do lixo",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 36,
+            description: "Em cima de uma torre",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 37,
+            description: "Em cima da pirâmide",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 38,
+            description: "Em cima do portico egípcio",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 39,
+            description: "Em uma sacada",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 40,
+            description: "No 3º andar do estacionamento",
+            collected: false,
+            imageFileName: null
+        },
+        {
+            number: 41,
+            description: "Bem na ponta",
             collected: false,
             imageFileName: null
         },

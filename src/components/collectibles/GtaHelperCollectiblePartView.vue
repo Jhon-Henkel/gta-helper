@@ -27,6 +27,11 @@ const props = defineProps(
             type: Boolean,
             required: false,
             default: true
+        },
+        showItemsCount: {
+            type: Boolean,
+            required: false,
+            default: true
         }
     }
 )
@@ -76,10 +81,9 @@ onMounted(() => {
         <ion-label slot="start">
             <slot/>
         </ion-label>
-        <ion-label>{{ collectedItems }}/{{ items.length }}</ion-label>
+        <ion-label v-show="showItemsCount">{{ collectedItems }}/{{ items.length }}</ion-label>
     </ion-item>
     <div class="ion-padding" slot="content">
-        <ion-img :src="imageFileName"/>
         <ion-list v-for="(item, index) in items" :key="index">
             <ion-item v-show="! onlyUnchecked || (onlyUnchecked && ! item.collected)">
                 <ion-checkbox slot="start" :checked="item.collected" @ionChange="update(item)"/>
