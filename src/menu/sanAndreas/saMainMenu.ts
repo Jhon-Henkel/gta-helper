@@ -1,5 +1,7 @@
 import {iMenuItem} from "@/menu/iMenuItem"
-import {iconsDir} from "@/dataObjects/missions/iconsDir"
+import {directories} from "@/dataObjects/directories"
+
+const iconsDir: string = directories.sanAndreas.icons
 
 export const saMainMenuItems: Array<iMenuItem> = [
     {
@@ -14,7 +16,7 @@ export const saMainMenuItems: Array<iMenuItem> = [
     },
     {
         routeName: 'sa-principal-missions',
-        icon: `${iconsDir.sanAndreas}cj.jpg`,
+        icon: `${iconsDir}cj.jpg`,
         label: 'Guia Missões Principais'
     },
     {
@@ -23,8 +25,8 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Serviços Secundários'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
+        routeName: 'sa-vehicle-missions',
+        icon: `${iconsDir}car_white.png`,
         label: 'Missões de Veículos'
     },
     {
@@ -34,27 +36,27 @@ export const saMainMenuItems: Array<iMenuItem> = [
     },
     {
         routeName: 'sa-all-properties',
-        icon: `${iconsDir.sanAndreas}house.png`,
+        icon: `${iconsDir}house.png`,
         label: 'Todas as Propriedades'
     },
     {
         routeName: 'sa-oysters',
-        icon: `${iconsDir.sanAndreas}oyster.png`,
+        icon: `${iconsDir}oyster.png`,
         label: 'Ostras'
     },
     {
         routeName: 'sa-graffiti',
-        icon: `${iconsDir.sanAndreas}spray.png`,
+        icon: `${iconsDir}spray.png`,
         label: 'Grafites'
     },
     {
         routeName: 'sa-photos',
-        icon: `${iconsDir.sanAndreas}cam.png`,
+        icon: `${iconsDir}cam.png`,
         label: 'Fotos'
     },
     {
         routeName: 'sa-horse-shoes',
-        icon: `${iconsDir.sanAndreas}horse_shoes.png`,
+        icon: `${iconsDir}horse_shoes.png`,
         label: 'Ferradura'
     },
     {
@@ -64,7 +66,7 @@ export const saMainMenuItems: Array<iMenuItem> = [
     },
     {
         routeName: 'sa-import-vehicles',
-        icon: `${iconsDir.sanAndreas}car_red.png`,
+        icon: `${iconsDir}car_red.png`,
         label: 'Importação de Veículos'
     },
     {

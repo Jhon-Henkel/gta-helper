@@ -14,7 +14,7 @@ defineProps(
 
 <template>
     <ion-item>
-        <ion-img slot="start" :src="mission.icon" alt="Ícone da missão"/>
+        <ion-img slot="start" :src="mission.icon" alt="Ícone da missão" class="image-icon"/>
         <ion-label>
             {{ mission.title }}
             <br>
@@ -27,3 +27,10 @@ defineProps(
         </ion-label>
     </ion-item>
 </template>
+
+<style scoped>
+.image-icon {
+    max-width: 100px;
+    max-height: 100px;
+}
+</style>

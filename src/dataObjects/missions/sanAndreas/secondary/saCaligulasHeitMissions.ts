@@ -1,5 +1,7 @@
 import {IMissionItem} from "@/dataObjects/missions/iMissionItem"
-import {iconsDir} from "@/dataObjects/missions/iconsDir"
+import {directories} from "@/dataObjects/directories"
+
+const iconsDir: string = directories.sanAndreas.icons
 
 export const saCaligulasHeitMissions: Array<IMissionItem> = [
     {
@@ -8,7 +10,7 @@ export const saCaligulasHeitMissions: Array<IMissionItem> = [
             "câmara com antecedência. Tens que tirar fotos dos planos do Casino Do Calígula. Distraia o guarda " +
             "desligando o gerador. Tira fotografias e sai. Entrega as fotos ao Woozy.",
         rewards: "Respeito",
-        icon: `${iconsDir.sanAndreas}caligulaHeit.jpg`,
+        icon: `${iconsDir}caligulaHeit.jpg`,
     },
     {
         title: "2 - A Chave para o Coração Dela",
@@ -17,7 +19,7 @@ export const saCaligulasHeitMissions: Array<IMissionItem> = [
             "\"coisa\" e vai ter com relação com ela. Agora tens de conseguir 35% de relações com a Millie, ela " +
             "agora é a tua namorada e te dá o cartão. Caso queira da forma rápida, pode matar ela no primeiro encontro.",
         rewards: "Respeito",
-        icon: `${iconsDir.sanAndreas}caligulaHeit.jpg`,
+        icon: `${iconsDir}caligulaHeit.jpg`,
     },
     {
         title: "3 - Barragem e Explosão",
@@ -26,14 +28,14 @@ export const saCaligulasHeitMissions: Array<IMissionItem> = [
             "pistola com silenciador. Matem os guardas e coloquem as cargas na sala da barragem. Vai para a porta " +
             "especificada.",
         rewards: "Respeito",
-        icon: `${iconsDir.sanAndreas}caligulaHeit.jpg`,
+        icon: `${iconsDir}caligulaHeit.jpg`,
     },
     {
         title: "4 - Rodas Policiais",
         description: "Roubar 4 motos da polícia. É melhor fazer turnos: Leste, Oeste, Norte, Sul. Entrega-os ao " +
             "caminhão que se move na auto-estrada à volta da cidade.",
         rewards: "Respeito",
-        icon: `${iconsDir.sanAndreas}caligulaHeit.jpg`,
+        icon: `${iconsDir}caligulaHeit.jpg`,
     },
     {
         title: "5 - Para o Alto e Avante",
@@ -42,7 +44,7 @@ export const saCaligulasHeitMissions: Array<IMissionItem> = [
             "Agora entra no helicóptero com uma placa magnética e roube o carro blindado. Agora vai para o " +
             "aeródromo, pouse o carro e o helicóptero no local indicado.",
         rewards: "Respeito",
-        icon: `${iconsDir.sanAndreas}caligulaHeit.jpg`,
+        icon: `${iconsDir}caligulaHeit.jpg`,
     },
     {
         title: "6 - Quebrando a Banca do Caligula",
@@ -54,6 +56,6 @@ export const saCaligulasHeitMissions: Array<IMissionItem> = [
             "helicóptero que está esperando por você, se você não conseguir, pegue um carro ou moto. Volte para " +
             "aeródromo abandonado.",
         rewards: "Respeito e $100.000",
-        icon: `${iconsDir.sanAndreas}caligulaHeit.jpg`,
+        icon: `${iconsDir}caligulaHeit.jpg`,
     },
 ]

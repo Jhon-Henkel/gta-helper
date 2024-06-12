@@ -1,10 +1,10 @@
 import {IMissionItemView} from "@/dataObjects/missions/IMissionItemView"
-import {saLosSantosMissionsPartOne} from "@/dataObjects/missions/sanAndreas/saLosSantosMissionsPartOne"
-import {saBadlandsMissions} from "@/dataObjects/missions/sanAndreas/saBadlandsMissions"
-import {saSanFierroMissions} from "@/dataObjects/missions/sanAndreas/saSanFierroMissions"
-import {saDesertMissions} from "@/dataObjects/missions/sanAndreas/saDesertMissions"
-import {saLasVenturasMissions} from "@/dataObjects/missions/sanAndreas/saLasVenturasMissions"
-import {saLosSantosMissionsPartTwo} from "@/dataObjects/missions/sanAndreas/saLosSantosMissionsPartTwo"
+import {saLosSantosMissionsPartOne} from "@/dataObjects/missions/sanAndreas/principal/saLosSantosMissionsPartOne"
+import {saBadlandsMissions} from "@/dataObjects/missions/sanAndreas/principal/saBadlandsMissions"
+import {saSanFierroMissions} from "@/dataObjects/missions/sanAndreas/principal/saSanFierroMissions"
+import {saDesertMissions} from "@/dataObjects/missions/sanAndreas/principal/saDesertMissions"
+import {saLasVenturasMissions} from "@/dataObjects/missions/sanAndreas/principal/saLasVenturasMissions"
+import {saLosSantosMissionsPartTwo} from "@/dataObjects/missions/sanAndreas/principal/saLosSantosMissionsPartTwo"
 
 export const saMissionsItemView: Array<IMissionItemView> = [
     {
