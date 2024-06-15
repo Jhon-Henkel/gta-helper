@@ -3,5 +3,5 @@ interface IChecklistEnum {
 }
 
 export const checklistEnum: IChecklistEnum = {
-    saConclusionItem: 'saConclusionItem',
+    saConclusionItem: 'saConclusionItems',
 }
