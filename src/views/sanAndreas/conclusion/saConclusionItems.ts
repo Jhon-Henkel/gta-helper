@@ -30,6 +30,26 @@ export const saConclusionItems: Array<IConclusionItem> = [
         done: false,
     },
     {
+        title: 'Serviços - Caminhoneiro',
+        done: false,
+    },
+    {
+        title: 'Serviços - Pedreiro',
+        done: false,
+    },
+    {
+        title: 'Serviços - Manobrista',
+        done: false,
+    },
+    {
+        title: 'Missões secundárias - Caligulas Heit\'s',
+        done: false,
+    },
+    {
+        title: 'Missões secundárias - Zero RC',
+        done: false,
+    },
+    {
         title: 'Missões de entregador - Los Santos',
         done: false,
     },

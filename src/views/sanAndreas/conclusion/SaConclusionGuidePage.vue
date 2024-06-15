@@ -9,7 +9,7 @@ import {checklistEnum} from "@/services/checklist/checklistEnum"
 
 const onlyUnchecked = ref(false)
 const itemsComplete = ref(0)
-const totalItemsToComplete = 34
+const totalItemsToComplete = 39
 const percentage = ref(0)
 const items = ref(checklistConclusionService.getItems(checklistEnum.saConclusionItem))
 
