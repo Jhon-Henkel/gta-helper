@@ -5,19 +5,19 @@ const iconsDir: string = directories.sanAndreas.icons
 
 export const saMainMenuItems: Array<iMenuItem> = [
     {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Introdução'
-    },
-    {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Guia para o 100%'
+        routeName: 'sa-conclusion-guide',
+        icon: `${iconsDir}100.png`,
+        label: 'Checklist para o 100%'
     },
     {
         routeName: 'sa-principal-missions',
         icon: `${iconsDir}cj.jpg`,
         label: 'Guia Missões Principais'
+    },
+    {
+        routeName: 'in-development',
+        icon: 'map',
+        label: 'Guia Missões Secundárias'
     },
     {
         routeName: 'in-development',
@@ -30,14 +30,9 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Missões de Veículos'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Missões de Entregador'
-    },
-    {
         routeName: 'sa-all-properties',
         icon: `${iconsDir}house.png`,
-        label: 'Todas as Propriedades'
+        label: 'Propriedades'
     },
     {
         routeName: 'sa-oysters',
@@ -60,14 +55,19 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Ferradura'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Escolas'
-    },
-    {
         routeName: 'sa-import-vehicles',
         icon: `${iconsDir}car_red.png`,
         label: 'Importação de Veículos'
+    },
+    {
+        routeName: 'in-development',
+        icon: 'map',
+        label: 'Missões de Entregador'
+    },
+    {
+        routeName: 'in-development',
+        icon: 'map',
+        label: 'Escolas'
     },
     {
         routeName: 'in-development',
@@ -82,36 +82,11 @@ export const saMainMenuItems: Array<iMenuItem> = [
     {
         routeName: 'in-development',
         icon: 'map',
-        label: 'Corridas de Estádio'
-    },
-    {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Academias'
-    },
-    {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Estande de tiro'
-    },
-    {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Recompensas 100%'
-    },
-    {
-        routeName: 'in-development',
-        icon: 'map',
         label: 'Créditos'
     },
     {
         routeName: 'in-development',
         icon: 'map',
-        label: 'Troféus e Conquistas'
-    },
-    {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Armas'
+        label: 'Mapa de Armas'
     },
 ]

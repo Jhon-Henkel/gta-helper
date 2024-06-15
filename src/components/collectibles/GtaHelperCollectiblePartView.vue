@@ -84,8 +84,12 @@ onMounted(() => {
         <ion-label v-show="showItemsCount">{{ collectedItems }}/{{ items.length }}</ion-label>
     </ion-item>
     <div class="ion-padding" slot="content">
-        <ion-list v-for="(item, index) in items" :key="index">
-            <ion-item v-show="! onlyUnchecked || (onlyUnchecked && ! item.collected)">
+        <ion-list
+            v-for="(item, index) in items"
+            :key="index"
+            v-show="! onlyUnchecked || (onlyUnchecked && ! item.collected)"
+        >
+            <ion-item>
                 <ion-checkbox slot="start" :checked="item.collected" @ionChange="update(item)"/>
                 <ion-img v-show="item.imageFileName" :src="item.imageFileName ?? ''" class="item-image"/>
                 <ion-label>
