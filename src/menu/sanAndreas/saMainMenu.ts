@@ -60,8 +60,8 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Missões de Entregador'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
+        routeName: 'sa-challenges',
+        icon: `${iconsDir}challenges.png`,
         label: 'Desafios'
     },
     {

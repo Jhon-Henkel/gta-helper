@@ -37,6 +37,11 @@ const routes: Array<RouteRecordRaw> = [
                 component: () => import('../views/sanAndreas/deliveryman/SaDeliverymanPage.vue')
             },
             {
+                path: 'sa/challenges',
+                name: 'sa-challenges',
+                component: () => import('../views/sanAndreas/challenges/SaChallengesPage.vue')
+            },
+            {
                 path: 'sa/graffiti',
                 name: 'sa-graffiti',
                 component: () => import('../views/sanAndreas/collectibles/graffiti/SaGraffitiPage.vue')
