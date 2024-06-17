@@ -1,119 +1,107 @@
 {
-  "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js": {
-    "file": "assets/GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js",
+  "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js": {
+    "file": "assets/GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js",
     "name": "GtaHelperCard.vue_vue_type_script_setup_true_lang",
     "imports": [
       "index.html"
     ]
   },
-  "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js": {
-    "file": "assets/GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js",
+  "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js": {
+    "file": "assets/GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js",
     "name": "GtaHelperCard.vue_vue_type_script_setup_true_lang",
     "imports": [
       "index-legacy.html"
     ]
   },
-  "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-!~{00s}~.js": {
+  "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-!~{00v}~.js": {
     "file": "assets/GtaHelperCollectiblePage-CIj0VhMf.css",
-    "src": "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-!~{00s}~.js"
+    "src": "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-!~{00v}~.js"
   },
-  "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-C628dcdp.js": {
-    "file": "assets/GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-C628dcdp.js",
+  "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-Cwm3KcoF.js": {
+    "file": "assets/GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-Cwm3KcoF.js",
     "name": "GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang",
     "imports": [
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js",
-      "index.html",
-      "__plugin-vue_export-helper-DX78vqoQ.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js",
+      "index.html"
     ],
     "css": [
       "assets/GtaHelperCollectiblePage-CIj0VhMf.css"
     ]
   },
-  "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-XVHrOnN9.js": {
-    "file": "assets/GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-XVHrOnN9.js",
+  "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-CRHcFRgR.js": {
+    "file": "assets/GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-CRHcFRgR.js",
     "name": "GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang",
     "imports": [
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js",
-      "index-legacy.html",
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js",
+      "index-legacy.html"
     ]
   },
-  "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js": {
-    "file": "assets/GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
+  "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js": {
+    "file": "assets/GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
     "name": "GtaHelperHeader.vue_vue_type_script_setup_true_lang",
     "imports": [
       "index.html"
     ]
   },
-  "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js": {
-    "file": "assets/GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
+  "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js": {
+    "file": "assets/GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
     "name": "GtaHelperHeader.vue_vue_type_script_setup_true_lang",
     "imports": [
       "index-legacy.html"
     ]
   },
-  "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-!~{00q}~.js": {
+  "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-!~{00t}~.js": {
     "file": "assets/GtaHelperMissionPage-DEeOyNrF.css",
-    "src": "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-!~{00q}~.js"
+    "src": "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-!~{00t}~.js"
   },
-  "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-BJR6onwa.js": {
-    "file": "assets/GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-BJR6onwa.js",
+  "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-BU1wfp_b.js": {
+    "file": "assets/GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-BU1wfp_b.js",
     "name": "GtaHelperMissionPage.vue_vue_type_script_setup_true_lang",
     "imports": [
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
       "index.html",
-      "__plugin-vue_export-helper-DX78vqoQ.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js"
     ],
     "css": [
       "assets/GtaHelperMissionPage-DEeOyNrF.css"
     ]
   },
-  "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-legacy-BbpyHiAr.js": {
-    "file": "assets/GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-legacy-BbpyHiAr.js",
+  "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-legacy-CR8hlwqH.js": {
+    "file": "assets/GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-legacy-CR8hlwqH.js",
     "name": "GtaHelperMissionPage.vue_vue_type_script_setup_true_lang",
     "imports": [
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
       "index-legacy.html",
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js"
     ]
   },
-  "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js": {
-    "file": "assets/GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
+  "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js": {
+    "file": "assets/GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
     "name": "GtaHelperPage.vue_vue_type_script_setup_true_lang",
     "imports": [
       "index.html"
     ]
   },
-  "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js": {
-    "file": "assets/GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
+  "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js": {
+    "file": "assets/GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
     "name": "GtaHelperPage.vue_vue_type_script_setup_true_lang",
     "imports": [
       "index-legacy.html"
     ]
   },
-  "__plugin-vue_export-helper-DX78vqoQ.js": {
-    "file": "assets/_plugin-vue_export-helper-DX78vqoQ.js",
-    "name": "_plugin-vue_export-helper"
-  },
-  "__plugin-vue_export-helper-legacy-BuV6Gg6l.js": {
-    "file": "assets/_plugin-vue_export-helper-legacy-BuV6Gg6l.js",
-    "name": "_plugin-vue_export-helper"
-  },
-  "_animation-DLc-WRq0.js": {
-    "file": "assets/animation-DLc-WRq0.js",
+  "_animation-CwVaDTon.js": {
+    "file": "assets/animation-CwVaDTon.js",
     "name": "animation",
     "imports": [
       "index.html"
     ]
   },
-  "_animation-legacy-BAra-wgt.js": {
-    "file": "assets/animation-legacy-BAra-wgt.js",
+  "_animation-legacy-BWjrmUs0.js": {
+    "file": "assets/animation-legacy-BWjrmUs0.js",
     "name": "animation",
     "imports": [
       "index-legacy.html"
@@ -133,6 +121,14 @@
       "_utilLocalStorage-legacy-BPyGa8cO.js"
     ]
   },
+  "_directories-TGkux2Qp.js": {
+    "file": "assets/directories-TGkux2Qp.js",
+    "name": "directories"
+  },
+  "_directories-legacy-DaKnbCb3.js": {
+    "file": "assets/directories-legacy-DaKnbCb3.js",
+    "name": "directories"
+  },
   "_utilLocalStorage-COiBzxLn.js": {
     "file": "assets/utilLocalStorage-COiBzxLn.js",
     "name": "utilLocalStorage"
@@ -142,7 +138,7 @@
     "name": "utilLocalStorage"
   },
   "index-legacy.html": {
-    "file": "assets/index-legacy-dUUPoeqC.js",
+    "file": "assets/index-legacy-JcxloKP0.js",
     "name": "index",
     "src": "index-legacy.html",
     "isEntry": true,
@@ -159,6 +155,9 @@
       "src/views/temporary/DevelopmentPage-legacy.vue",
       "src/views/sanAndreas/main/SaMainPage-legacy.vue",
       "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage-legacy.vue",
+      "src/views/sanAndreas/missions/secondary/SaSecondaryMissionsPage-legacy.vue",
+      "src/views/sanAndreas/deliveryman/SaDeliverymanPage-legacy.vue",
+      "src/views/sanAndreas/challenges/SaChallengesPage-legacy.vue",
       "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage-legacy.vue",
       "src/views/sanAndreas/collectibles/photos/SaPhotosPage-legacy.vue",
       "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage-legacy.vue",
@@ -172,7 +171,7 @@
     ]
   },
   "index.html": {
-    "file": "assets/index-CgYRTHoK.js",
+    "file": "assets/index-DGAOeGQo.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -189,6 +188,9 @@
       "src/views/temporary/DevelopmentPage.vue",
       "src/views/sanAndreas/main/SaMainPage.vue",
       "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage.vue",
+      "src/views/sanAndreas/missions/secondary/SaSecondaryMissionsPage.vue",
+      "src/views/sanAndreas/deliveryman/SaDeliverymanPage.vue",
+      "src/views/sanAndreas/challenges/SaChallengesPage.vue",
       "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage.vue",
       "src/views/sanAndreas/collectibles/photos/SaPhotosPage.vue",
       "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage.vue",
@@ -201,7 +203,7 @@
       "src/views/v/main/VMainPage.vue"
     ],
     "css": [
-      "assets/index-DW8AseGk.css"
+      "assets/index-ClioYbCk.css"
     ]
   },
   "node_modules/@ionic/core/components/focus-visible-legacy.js": {
@@ -217,7 +219,7 @@
     "isDynamicEntry": true
   },
   "node_modules/@ionic/core/components/index9-legacy.js": {
-    "file": "assets/index9-legacy-BNaPJVij.js",
+    "file": "assets/index9-legacy-DRm-QdSD.js",
     "name": "index9",
     "src": "node_modules/@ionic/core/components/index9-legacy.js",
     "isDynamicEntry": true,
@@ -226,7 +228,7 @@
     ]
   },
   "node_modules/@ionic/core/components/index9.js": {
-    "file": "assets/index9-DbGSWRGW.js",
+    "file": "assets/index9-gYgG_gAi.js",
     "name": "index9",
     "src": "node_modules/@ionic/core/components/index9.js",
     "isDynamicEntry": true,
@@ -235,7 +237,7 @@
     ]
   },
   "node_modules/@ionic/core/components/input-shims-legacy.js": {
-    "file": "assets/input-shims-legacy-CAkPIuyK.js",
+    "file": "assets/input-shims-legacy-ODTi4fTo.js",
     "name": "input-shims",
     "src": "node_modules/@ionic/core/components/input-shims-legacy.js",
     "isDynamicEntry": true,
@@ -244,7 +246,7 @@
     ]
   },
   "node_modules/@ionic/core/components/input-shims.js": {
-    "file": "assets/input-shims-DZV9rpJp.js",
+    "file": "assets/input-shims-DheP25Y6.js",
     "name": "input-shims",
     "src": "node_modules/@ionic/core/components/input-shims.js",
     "isDynamicEntry": true,
@@ -253,27 +255,27 @@
     ]
   },
   "node_modules/@ionic/core/components/ios.transition-legacy.js": {
-    "file": "assets/ios.transition-legacy-DENy_m7K.js",
+    "file": "assets/ios.transition-legacy-DOewFsiU.js",
     "name": "ios.transition",
     "src": "node_modules/@ionic/core/components/ios.transition-legacy.js",
     "isDynamicEntry": true,
     "imports": [
-      "_animation-legacy-BAra-wgt.js",
+      "_animation-legacy-BWjrmUs0.js",
       "index-legacy.html"
     ]
   },
   "node_modules/@ionic/core/components/ios.transition.js": {
-    "file": "assets/ios.transition-BA6k0SO5.js",
+    "file": "assets/ios.transition-N3HcR2pD.js",
     "name": "ios.transition",
     "src": "node_modules/@ionic/core/components/ios.transition.js",
     "isDynamicEntry": true,
     "imports": [
-      "_animation-DLc-WRq0.js",
+      "_animation-CwVaDTon.js",
       "index.html"
     ]
   },
   "node_modules/@ionic/core/components/keyboard2-legacy.js": {
-    "file": "assets/keyboard2-legacy-EzbNS5I1.js",
+    "file": "assets/keyboard2-legacy-C7yl2niS.js",
     "name": "keyboard2",
     "src": "node_modules/@ionic/core/components/keyboard2-legacy.js",
     "isDynamicEntry": true,
@@ -282,7 +284,7 @@
     ]
   },
   "node_modules/@ionic/core/components/keyboard2.js": {
-    "file": "assets/keyboard2-B4SyCAhC.js",
+    "file": "assets/keyboard2-DVdkFQWb.js",
     "name": "keyboard2",
     "src": "node_modules/@ionic/core/components/keyboard2.js",
     "isDynamicEntry": true,
@@ -291,27 +293,27 @@
     ]
   },
   "node_modules/@ionic/core/components/md.transition-legacy.js": {
-    "file": "assets/md.transition-legacy-DyG53xsp.js",
+    "file": "assets/md.transition-legacy-DKlxwybq.js",
     "name": "md.transition",
     "src": "node_modules/@ionic/core/components/md.transition-legacy.js",
     "isDynamicEntry": true,
     "imports": [
-      "_animation-legacy-BAra-wgt.js",
+      "_animation-legacy-BWjrmUs0.js",
       "index-legacy.html"
     ]
   },
   "node_modules/@ionic/core/components/md.transition.js": {
-    "file": "assets/md.transition-BDiByAeU.js",
+    "file": "assets/md.transition-BDpQ-ZdH.js",
     "name": "md.transition",
     "src": "node_modules/@ionic/core/components/md.transition.js",
     "isDynamicEntry": true,
     "imports": [
-      "_animation-DLc-WRq0.js",
+      "_animation-CwVaDTon.js",
       "index.html"
     ]
   },
   "node_modules/@ionic/core/components/status-tap-legacy.js": {
-    "file": "assets/status-tap-legacy-CHPti-Tg.js",
+    "file": "assets/status-tap-legacy-BPWhs6xM.js",
     "name": "status-tap",
     "src": "node_modules/@ionic/core/components/status-tap-legacy.js",
     "isDynamicEntry": true,
@@ -320,7 +322,7 @@
     ]
   },
   "node_modules/@ionic/core/components/status-tap.js": {
-    "file": "assets/status-tap-DGo_aBFa.js",
+    "file": "assets/status-tap-CNOvbs1A.js",
     "name": "status-tap",
     "src": "node_modules/@ionic/core/components/status-tap.js",
     "isDynamicEntry": true,
@@ -329,7 +331,7 @@
     ]
   },
   "node_modules/@ionic/core/components/swipe-back-legacy.js": {
-    "file": "assets/swipe-back-legacy-D2-talxP.js",
+    "file": "assets/swipe-back-legacy-DTfSBsaT.js",
     "name": "swipe-back",
     "src": "node_modules/@ionic/core/components/swipe-back-legacy.js",
     "isDynamicEntry": true,
@@ -338,7 +340,7 @@
     ]
   },
   "node_modules/@ionic/core/components/swipe-back.js": {
-    "file": "assets/swipe-back-DG9Nxv7Q.js",
+    "file": "assets/swipe-back-CDzaDEkn.js",
     "name": "swipe-back",
     "src": "node_modules/@ionic/core/components/swipe-back.js",
     "isDynamicEntry": true,
@@ -346,351 +348,423 @@
       "index.html"
     ]
   },
+  "src/views/sanAndreas/challenges/SaChallengesPage-legacy.vue": {
+    "file": "assets/SaChallengesPage-legacy-pk_qtQS-.js",
+    "name": "SaChallengesPage",
+    "src": "src/views/sanAndreas/challenges/SaChallengesPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "index-legacy.html"
+    ]
+  },
+  "src/views/sanAndreas/challenges/SaChallengesPage.vue": {
+    "file": "assets/SaChallengesPage-CP7c_M5z.js",
+    "name": "SaChallengesPage",
+    "src": "src/views/sanAndreas/challenges/SaChallengesPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "index.html"
+    ]
+  },
   "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage-legacy.vue": {
-    "file": "assets/SaGraffitiPage-legacy-D-qleCxn.js",
+    "file": "assets/SaGraffitiPage-legacy-BXdCYof5.js",
     "name": "SaGraffitiPage",
     "src": "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "_collectibleService-legacy-BrSEMjNR.js",
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-XVHrOnN9.js",
+      "_directories-legacy-DaKnbCb3.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-CRHcFRgR.js",
       "index-legacy.html",
       "_utilLocalStorage-legacy-BPyGa8cO.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js"
     ]
   },
   "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage.vue": {
-    "file": "assets/SaGraffitiPage-DFZVzYek.js",
+    "file": "assets/SaGraffitiPage-CItrPsxK.js",
     "name": "SaGraffitiPage",
     "src": "src/views/sanAndreas/collectibles/graffiti/SaGraffitiPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "_collectibleService-D6UZ4RMd.js",
-      "__plugin-vue_export-helper-DX78vqoQ.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-C628dcdp.js",
+      "_directories-TGkux2Qp.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-Cwm3KcoF.js",
       "index.html",
       "_utilLocalStorage-COiBzxLn.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js"
     ]
   },
   "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage-legacy.vue": {
-    "file": "assets/SaHorseShoesPage-legacy-8498MMFq.js",
+    "file": "assets/SaHorseShoesPage-legacy-CXdI5_Xh.js",
     "name": "SaHorseShoesPage",
     "src": "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "_collectibleService-legacy-BrSEMjNR.js",
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-XVHrOnN9.js",
+      "_directories-legacy-DaKnbCb3.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-CRHcFRgR.js",
       "index-legacy.html",
       "_utilLocalStorage-legacy-BPyGa8cO.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js"
     ]
   },
   "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage.vue": {
-    "file": "assets/SaHorseShoesPage-BrdwCeUa.js",
+    "file": "assets/SaHorseShoesPage-DLkUX-Gv.js",
     "name": "SaHorseShoesPage",
     "src": "src/views/sanAndreas/collectibles/horseShoes/SaHorseShoesPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "_collectibleService-D6UZ4RMd.js",
-      "__plugin-vue_export-helper-DX78vqoQ.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-C628dcdp.js",
+      "_directories-TGkux2Qp.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-Cwm3KcoF.js",
       "index.html",
       "_utilLocalStorage-COiBzxLn.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js"
     ]
   },
   "src/views/sanAndreas/collectibles/oysters/SaOystersPage-legacy.vue": {
-    "file": "assets/SaOystersPage-legacy-B26jsDsf.js",
+    "file": "assets/SaOystersPage-legacy-BrnpbMcQ.js",
     "name": "SaOystersPage",
     "src": "src/views/sanAndreas/collectibles/oysters/SaOystersPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "_collectibleService-legacy-BrSEMjNR.js",
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-XVHrOnN9.js",
+      "_directories-legacy-DaKnbCb3.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-CRHcFRgR.js",
       "index-legacy.html",
       "_utilLocalStorage-legacy-BPyGa8cO.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js"
     ]
   },
   "src/views/sanAndreas/collectibles/oysters/SaOystersPage.vue": {
-    "file": "assets/SaOystersPage-C2Sz2DIW.js",
+    "file": "assets/SaOystersPage-B3m5k1YT.js",
     "name": "SaOystersPage",
     "src": "src/views/sanAndreas/collectibles/oysters/SaOystersPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "_collectibleService-D6UZ4RMd.js",
-      "__plugin-vue_export-helper-DX78vqoQ.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-C628dcdp.js",
+      "_directories-TGkux2Qp.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-Cwm3KcoF.js",
       "index.html",
       "_utilLocalStorage-COiBzxLn.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js"
     ]
   },
   "src/views/sanAndreas/collectibles/photos/SaPhotosPage-legacy.vue": {
-    "file": "assets/SaPhotosPage-legacy-amGi2BY2.js",
+    "file": "assets/SaPhotosPage-legacy-CvGdfFgv.js",
     "name": "SaPhotosPage",
     "src": "src/views/sanAndreas/collectibles/photos/SaPhotosPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "_collectibleService-legacy-BrSEMjNR.js",
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-XVHrOnN9.js",
+      "_directories-legacy-DaKnbCb3.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-CRHcFRgR.js",
       "index-legacy.html",
       "_utilLocalStorage-legacy-BPyGa8cO.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js"
     ]
   },
   "src/views/sanAndreas/collectibles/photos/SaPhotosPage.vue": {
-    "file": "assets/SaPhotosPage-DW6yek27.js",
+    "file": "assets/SaPhotosPage-BQX-mqDm.js",
     "name": "SaPhotosPage",
     "src": "src/views/sanAndreas/collectibles/photos/SaPhotosPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "_collectibleService-D6UZ4RMd.js",
-      "__plugin-vue_export-helper-DX78vqoQ.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-C628dcdp.js",
+      "_directories-TGkux2Qp.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-Cwm3KcoF.js",
       "index.html",
       "_utilLocalStorage-COiBzxLn.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js"
     ]
   },
   "src/views/sanAndreas/collectibles/vehicles/SaVehiclesImportationPage-legacy.vue": {
-    "file": "assets/SaVehiclesImportationPage-legacy-Bq84ybLC.js",
+    "file": "assets/SaVehiclesImportationPage-legacy-DC0DOKBg.js",
     "name": "SaVehiclesImportationPage",
     "src": "src/views/sanAndreas/collectibles/vehicles/SaVehiclesImportationPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-XVHrOnN9.js",
+      "_directories-legacy-DaKnbCb3.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-legacy-CRHcFRgR.js",
       "_utilLocalStorage-legacy-BPyGa8cO.js",
       "index-legacy.html",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js"
     ]
   },
   "src/views/sanAndreas/collectibles/vehicles/SaVehiclesImportationPage.vue": {
-    "file": "assets/SaVehiclesImportationPage-Cfd-Qyn-.js",
+    "file": "assets/SaVehiclesImportationPage-BLTwq6jy.js",
     "name": "SaVehiclesImportationPage",
     "src": "src/views/sanAndreas/collectibles/vehicles/SaVehiclesImportationPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "__plugin-vue_export-helper-DX78vqoQ.js",
-      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-C628dcdp.js",
+      "_directories-TGkux2Qp.js",
+      "_GtaHelperCollectiblePage.vue_vue_type_script_setup_true_lang-Cwm3KcoF.js",
       "_utilLocalStorage-COiBzxLn.js",
       "index.html",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js"
     ]
   },
   "src/views/sanAndreas/conclusion/SaConclusionGuidePage-legacy.vue": {
-    "file": "assets/SaConclusionGuidePage-legacy-CqoLkjM7.js",
+    "file": "assets/SaConclusionGuidePage-legacy-B5zmY0ul.js",
     "name": "SaConclusionGuidePage",
     "src": "src/views/sanAndreas/conclusion/SaConclusionGuidePage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "index-legacy.html",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
       "_utilLocalStorage-legacy-BPyGa8cO.js"
     ]
   },
   "src/views/sanAndreas/conclusion/SaConclusionGuidePage.vue": {
-    "file": "assets/SaConclusionGuidePage-Exy2s_vM.js",
+    "file": "assets/SaConclusionGuidePage-DzJjgpBB.js",
     "name": "SaConclusionGuidePage",
     "src": "src/views/sanAndreas/conclusion/SaConclusionGuidePage.vue",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
       "_utilLocalStorage-COiBzxLn.js"
     ]
   },
+  "src/views/sanAndreas/deliveryman/SaDeliverymanPage-legacy.vue": {
+    "file": "assets/SaDeliverymanPage-legacy-lqen13f2.js",
+    "name": "SaDeliverymanPage",
+    "src": "src/views/sanAndreas/deliveryman/SaDeliverymanPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "index-legacy.html",
+      "_directories-legacy-DaKnbCb3.js"
+    ]
+  },
+  "src/views/sanAndreas/deliveryman/SaDeliverymanPage.vue": {
+    "file": "assets/SaDeliverymanPage-BE5loJaK.js",
+    "name": "SaDeliverymanPage",
+    "src": "src/views/sanAndreas/deliveryman/SaDeliverymanPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "index.html",
+      "_directories-TGkux2Qp.js"
+    ]
+  },
   "src/views/sanAndreas/main/SaMainPage-legacy.vue": {
-    "file": "assets/SaMainPage-legacy-BYNwLKb9.js",
+    "file": "assets/SaMainPage-legacy-DWqW3mj2.js",
     "name": "SaMainPage",
     "src": "src/views/sanAndreas/main/SaMainPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "index-legacy.html",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_directories-legacy-DaKnbCb3.js"
     ]
   },
   "src/views/sanAndreas/main/SaMainPage.vue": {
-    "file": "assets/SaMainPage-Bnv0gBYE.js",
+    "file": "assets/SaMainPage-CAysu1sA.js",
     "name": "SaMainPage",
     "src": "src/views/sanAndreas/main/SaMainPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "__plugin-vue_export-helper-DX78vqoQ.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_directories-TGkux2Qp.js"
     ],
     "css": [
       "assets/SaMainPage-B8yDS0rV.css"
     ]
   },
   "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage-legacy.vue": {
-    "file": "assets/SaPrincipalMissionsPage-legacy-TQ8IyevV.js",
+    "file": "assets/SaPrincipalMissionsPage-legacy-DlpIPqIh.js",
     "name": "SaPrincipalMissionsPage",
     "src": "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js",
-      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-legacy-BbpyHiAr.js",
+      "_directories-legacy-DaKnbCb3.js",
+      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-legacy-CR8hlwqH.js",
       "index-legacy.html",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js"
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js"
     ]
   },
   "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage.vue": {
-    "file": "assets/SaPrincipalMissionsPage-SdK7hn_n.js",
+    "file": "assets/SaPrincipalMissionsPage-e8bKbGMJ.js",
     "name": "SaPrincipalMissionsPage",
     "src": "src/views/sanAndreas/missions/principal/SaPrincipalMissionsPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "__plugin-vue_export-helper-DX78vqoQ.js",
-      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-BJR6onwa.js",
+      "_directories-TGkux2Qp.js",
+      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-BU1wfp_b.js",
       "index.html",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js"
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js"
+    ]
+  },
+  "src/views/sanAndreas/missions/secondary/SaSecondaryMissionsPage-legacy.vue": {
+    "file": "assets/SaSecondaryMissionsPage-legacy-CdQQdXw7.js",
+    "name": "SaSecondaryMissionsPage",
+    "src": "src/views/sanAndreas/missions/secondary/SaSecondaryMissionsPage-legacy.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-legacy-CR8hlwqH.js",
+      "_directories-legacy-DaKnbCb3.js",
+      "index-legacy.html",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js"
+    ]
+  },
+  "src/views/sanAndreas/missions/secondary/SaSecondaryMissionsPage.vue": {
+    "file": "assets/SaSecondaryMissionsPage-Cf5MJmDP.js",
+    "name": "SaSecondaryMissionsPage",
+    "src": "src/views/sanAndreas/missions/secondary/SaSecondaryMissionsPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-BU1wfp_b.js",
+      "_directories-TGkux2Qp.js",
+      "index.html",
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js"
     ]
   },
   "src/views/sanAndreas/missions/vehicle/SaVehicleMissionsPage-legacy.vue": {
-    "file": "assets/SaVehicleMissionsPage-legacy-nNKpW7SH.js",
+    "file": "assets/SaVehicleMissionsPage-legacy-8GUFmzxq.js",
     "name": "SaVehicleMissionsPage",
     "src": "src/views/sanAndreas/missions/vehicle/SaVehicleMissionsPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-legacy-BbpyHiAr.js",
-      "__plugin-vue_export-helper-legacy-BuV6Gg6l.js",
+      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-legacy-CR8hlwqH.js",
+      "_directories-legacy-DaKnbCb3.js",
       "index-legacy.html",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js"
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js"
     ]
   },
   "src/views/sanAndreas/missions/vehicle/SaVehicleMissionsPage.vue": {
-    "file": "assets/SaVehicleMissionsPage-C_mUtlEz.js",
+    "file": "assets/SaVehicleMissionsPage-Bj8bxSvb.js",
     "name": "SaVehicleMissionsPage",
     "src": "src/views/sanAndreas/missions/vehicle/SaVehicleMissionsPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-BJR6onwa.js",
-      "__plugin-vue_export-helper-DX78vqoQ.js",
+      "_GtaHelperMissionPage.vue_vue_type_script_setup_true_lang-BU1wfp_b.js",
+      "_directories-TGkux2Qp.js",
       "index.html",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js"
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js"
     ]
   },
   "src/views/sanAndreas/properties/SaAllPropertiesPage-legacy.vue": {
-    "file": "assets/SaAllPropertiesPage-legacy-BBJn6RfK.js",
+    "file": "assets/SaAllPropertiesPage-legacy-c7UruMYj.js",
     "name": "SaAllPropertiesPage",
     "src": "src/views/sanAndreas/properties/SaAllPropertiesPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "index-legacy.html",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-CbTgLjPk.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-B0NjEOgA.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js"
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-legacy-B_bEgzu-.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-legacy-CaapmbWI.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js"
     ]
   },
   "src/views/sanAndreas/properties/SaAllPropertiesPage.vue": {
-    "file": "assets/SaAllPropertiesPage-BKdnsTaC.js",
+    "file": "assets/SaAllPropertiesPage-CWtrX4i4.js",
     "name": "SaAllPropertiesPage",
     "src": "src/views/sanAndreas/properties/SaAllPropertiesPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-CUwDxSWg.js",
-      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DYJmX30V.js",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js"
+      "_GtaHelperHeader.vue_vue_type_script_setup_true_lang-Q-He-lPS.js",
+      "_GtaHelperCard.vue_vue_type_script_setup_true_lang-DpVfVNMT.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js"
     ]
   },
   "src/views/temporary/DevelopmentPage-legacy.vue": {
-    "file": "assets/DevelopmentPage-legacy-Bm0mToIZ.js",
+    "file": "assets/DevelopmentPage-legacy-BCL4LJau.js",
     "name": "DevelopmentPage",
     "src": "src/views/temporary/DevelopmentPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js",
       "index-legacy.html"
     ]
   },
   "src/views/temporary/DevelopmentPage.vue": {
-    "file": "assets/DevelopmentPage-CoW63m3t.js",
+    "file": "assets/DevelopmentPage-DkR003OD.js",
     "name": "DevelopmentPage",
     "src": "src/views/temporary/DevelopmentPage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js",
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js",
       "index.html"
     ]
   },
   "src/views/v/main/VMainPage-legacy.vue": {
-    "file": "assets/VMainPage-legacy-Duz8NZb_.js",
+    "file": "assets/VMainPage-legacy-c7RFzbAJ.js",
     "name": "VMainPage",
     "src": "src/views/v/main/VMainPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "index-legacy.html",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js"
     ]
   },
   "src/views/v/main/VMainPage.vue": {
-    "file": "assets/VMainPage-DNGrOX_w.js",
+    "file": "assets/VMainPage-Bb_3Dh8a.js",
     "name": "VMainPage",
     "src": "src/views/v/main/VMainPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js"
     ]
   },
   "src/views/viceCity/main/VcMainPage-legacy.vue": {
-    "file": "assets/VcMainPage-legacy-BvAsxUn7.js",
+    "file": "assets/VcMainPage-legacy-WoaO8iA2.js",
     "name": "VcMainPage",
     "src": "src/views/viceCity/main/VcMainPage-legacy.vue",
     "isDynamicEntry": true,
     "imports": [
       "index-legacy.html",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-CGZn4t4V.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-legacy-BG8beoep.js"
     ]
   },
   "src/views/viceCity/main/VcMainPage.vue": {
-    "file": "assets/VcMainPage-j3RoXUb0.js",
+    "file": "assets/VcMainPage-B6WQGpkF.js",
     "name": "VcMainPage",
     "src": "src/views/viceCity/main/VcMainPage.vue",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-CFO9_dmG.js"
+      "_GtaHelperPage.vue_vue_type_script_setup_true_lang-9Sr2ekih.js"
     ]
   },
   "vite/legacy-polyfills-legacy": {
