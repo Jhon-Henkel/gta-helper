@@ -52,6 +52,7 @@ const props = defineProps({
 const totalCollectedItems = ref()
 const percentage = ref()
 const onlyUnchecked = ref(true)
+const iframeSrc = ref('')
 
 function updateCounter() {
     totalCollectedItems.value = props.service.getSumOfCollectedItems(props.itemEnum)
@@ -60,6 +61,7 @@ function updateCounter() {
 
 onMounted(() => {
     updateCounter()
+    iframeSrc.value = `${props.mapImageFileName}?t=${Date.now()}`
 })
 </script>
 
@@ -77,9 +79,7 @@ onMounted(() => {
                     {{ totalCollectedItems }}/{{ totalItems }} ({{ percentage }}%)
                 </template>
             </gta-helper-card>
-            <div style="overflow: auto; -webkit-overflow-scrolling: touch;">
-                <iframe :src="mapImageFileName" width="100%" height="300px"/>
-            </div>
+            <iframe :src="iframeSrc" width="100%" height="300px" loading="lazy" allowfullscreen />
             <div class="ion-text-end">
                 <ion-button fill="clear" @click="onlyUnchecked = !onlyUnchecked">
                     {{ onlyUnchecked ? 'Todos' : 'Somente Não Coletados' }}
