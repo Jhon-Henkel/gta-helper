@@ -15,8 +15,8 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Guia Missões Principais'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
+        routeName: 'sa-secondary-missions',
+        icon: `${iconsDir}caligulasHeit.jpg`,
         label: 'Guia Missões Secundárias'
     },
     {
@@ -67,26 +67,11 @@ export const saMainMenuItems: Array<iMenuItem> = [
     {
         routeName: 'in-development',
         icon: 'map',
-        label: 'Escolas'
-    },
-    {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Corridas'
-    },
-    {
-        routeName: 'in-development',
-        icon: 'map',
         label: 'Desafios'
     },
     {
         routeName: 'in-development',
         icon: 'map',
         label: 'Créditos'
-    },
-    {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Mapa de Armas'
     },
 ]
