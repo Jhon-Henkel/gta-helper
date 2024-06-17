@@ -25,7 +25,7 @@ function goToRoute(routeName: string) {
                         button
                         @click="goToRoute(item.routeName)"
                     >
-                        <ion-img :src="item.icon" slot="start" class="icon"/>
+                        <ion-img :src="item.icon" slot="start" class="icon" alt="icon"/>
                         {{ item.label }}
                     </ion-item>
                 </template>
