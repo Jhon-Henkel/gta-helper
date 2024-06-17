@@ -10,6 +10,7 @@ export const directories = {
         },
         missions: {
             vehicles: './public/assets/images/sanAndreas/missions/vehicles/',
+            deliveryman: './public/assets/images/sanAndreas/missions/deliveryman/',
         }
     }
 }

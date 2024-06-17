@@ -37,7 +37,7 @@ onMounted(() => {
 <template>
     <gta-helper-page>
         <template #header>
-            <gta-helper-header title="Checklist para o 100%"/>
+            <gta-helper-header title="GTA SA - Checklist para o 100%"/>
         </template>
         <template #content>
             <gta-helper-card>

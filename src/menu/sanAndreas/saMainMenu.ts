@@ -55,8 +55,8 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Importação de Veículos'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
+        routeName: 'sa-deliveryman',
+        icon: `${iconsDir}package.png`,
         label: 'Missões de Entregador'
     },
     {
