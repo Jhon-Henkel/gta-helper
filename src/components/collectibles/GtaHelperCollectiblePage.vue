@@ -101,3 +101,9 @@ onMounted(() => {
         </template>
     </gta-helper-page>
 </template>
+
+<style scoped>
+iframe {
+    -webkit-overflow-scrolling: touch;
+}
+</style>
