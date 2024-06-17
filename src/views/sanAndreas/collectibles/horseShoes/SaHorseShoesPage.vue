@@ -13,7 +13,7 @@ import {collectibleService} from "@/services/collectibles/collectibleService"
         :service="collectibleService"
         :base-directory="directories.sanAndreas.collectibles.horseShoes"
         :total-items="50"
-        :map-image-file-name="`${directories.sanAndreas.collectibles.horseShoes}/sa_horse_shoes_map.jpg`"
+        :map-image-file-name="`${directories.sanAndreas.collectibles.horseShoes}sa_horse_shoes_map.jpg`"
         :show-items-count="false"
         :item-enum="saCollectibleEnum.saHorseShoes"
     />

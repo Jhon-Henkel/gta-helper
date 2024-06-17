@@ -13,7 +13,7 @@ import {saVehiclesService} from "@/services/collectibles/vehicles/sanAndreas/saV
         :base-directory="directories.sanAndreas.collectibles.vehicles"
         :total-items="30"
         :show-number="false"
-        :map-image-file-name="`${directories.sanAndreas.collectibles.vehicles}/sa_vehicles_map.jpg`"
+        :map-image-file-name="`${directories.sanAndreas.collectibles.vehicles}sa_vehicles_map.jpg`"
         :show-items-count="true"
         item-enum=""
     />

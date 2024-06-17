@@ -13,7 +13,7 @@ import {saCollectibleEnum} from "@/services/collectibles/saCollectibleEnum"
         :service="collectibleService"
         :base-directory="directories.sanAndreas.collectibles.graffiti"
         :total-items="100"
-        :map-image-file-name="`${directories.sanAndreas.collectibles.graffiti}/sa_graffiti_map.jpg`"
+        :map-image-file-name="`${directories.sanAndreas.collectibles.graffiti}sa_graffiti_map.jpg`"
         :show-items-count="false"
         :item-enum="saCollectibleEnum.saGraffiti"
     />
