@@ -20,11 +20,6 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Guia Missões Secundárias'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
-        label: 'Serviços Secundários'
-    },
-    {
         routeName: 'sa-vehicle-missions',
         icon: `${iconsDir}car_white.png`,
         label: 'Missões de Veículos'
