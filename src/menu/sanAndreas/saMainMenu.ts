@@ -65,8 +65,8 @@ export const saMainMenuItems: Array<iMenuItem> = [
         label: 'Desafios'
     },
     {
-        routeName: 'in-development',
-        icon: 'map',
+        routeName: 'sa-credits',
+        icon: `${iconsDir}credits.jpg`,
         label: 'Créditos'
     },
 ]

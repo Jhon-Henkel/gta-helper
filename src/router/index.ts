@@ -82,6 +82,11 @@ const routes: Array<RouteRecordRaw> = [
                 component: () => import('../views/sanAndreas/conclusion/SaConclusionGuidePage.vue')
             },
             {
+                path: 'sa/credits',
+                name: 'sa-credits',
+                component: () => import('../views/sanAndreas/credits/SaCreditsPage.vue')
+            },
+            {
                 path: 'vc/main',
                 name: 'vc-main',
                 component: () => import('../views/viceCity/main/VcMainPage.vue')
