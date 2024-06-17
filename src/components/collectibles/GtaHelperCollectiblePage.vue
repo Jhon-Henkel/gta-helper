@@ -77,7 +77,9 @@ onMounted(() => {
                     {{ totalCollectedItems }}/{{ totalItems }} ({{ percentage }}%)
                 </template>
             </gta-helper-card>
-            <iframe :src="mapImageFileName" width="100%" height="300px"/>
+            <div style="overflow: auto; -webkit-overflow-scrolling: touch;">
+                <iframe :src="mapImageFileName" width="100%" height="300px"/>
+            </div>
             <div class="ion-text-end">
                 <ion-button fill="clear" @click="onlyUnchecked = !onlyUnchecked">
                     {{ onlyUnchecked ? 'Todos' : 'Somente Não Coletados' }}
