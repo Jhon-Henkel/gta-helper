@@ -7,7 +7,6 @@ import GtaHelperCollectiblePartView from "@/components/collectibles/GtaHelperCol
 import {IonAccordion, IonAccordionGroup, IonButton} from "@ionic/vue"
 import {ICollectibleService} from "@/services/collectibles/ICollectibleService"
 import {ICollectibleViewItem} from "@/views/sanAndreas/collectibles/iCollectibleViewItem"
-import iframeResize from '@iframe-resizer/parent'
 
 const props = defineProps({
     totalItems: {
@@ -60,8 +59,6 @@ function updateCounter() {
     percentage.value = parseInt(String((totalCollectedItems.value / props.totalItems) * 100))
 }
 
-iframeResize({ license: "GPLv3" }, '#myIframe');
-
 onMounted(() => {
     updateCounter()
     iframeSrc.value = `${props.mapImageFileName}?t=${Date.now()}`
@@ -82,7 +79,7 @@ onMounted(() => {
                     {{ totalCollectedItems }}/{{ totalItems }} ({{ percentage }}%)
                 </template>
             </gta-helper-card>
-            <iframe :src="iframeSrc" id="myIframe"></iframe>
+            <iframe :src="iframeSrc" width="100%" height="300px" loading="lazy" allowfullscreen />
             <div class="ion-text-end">
                 <ion-button fill="clear" @click="onlyUnchecked = !onlyUnchecked">
                     {{ onlyUnchecked ? 'Todos' : 'Somente Não Coletados' }}
@@ -106,10 +103,3 @@ onMounted(() => {
         </template>
     </gta-helper-page>
 </template>
-
-<style scoped>
-iframe {
-    width: 100%;
-    height: 30vh;
-}
-</style>
