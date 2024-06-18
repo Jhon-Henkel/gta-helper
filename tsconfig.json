@@ -2,6 +2,7 @@
     "compilerOptions": {
         "target": "ESNext",
         "useDefineForClassFields": true,
+        "typeRoots": ["./node_modules/@types", "./src/types"],
         "module": "ESNext",
         "moduleResolution": "Node",
         "strict": true,
