@@ -79,7 +79,7 @@ onMounted(() => {
                     {{ totalCollectedItems }}/{{ totalItems }} ({{ percentage }}%)
                 </template>
             </gta-helper-card>
-            <iframe :src="iframeSrc" width="100%" height="300px" loading="lazy" allowfullscreen />
+            <iframe :src="iframeSrc" width="100%" height="300px" loading="lazy" allowfullscreen class="iframe"/>
             <div class="ion-text-end">
                 <ion-button fill="clear" @click="onlyUnchecked = !onlyUnchecked">
                     {{ onlyUnchecked ? 'Todos' : 'Somente Não Coletados' }}
@@ -103,3 +103,10 @@ onMounted(() => {
         </template>
     </gta-helper-page>
 </template>
+
+<style scoped>
+.iframe {
+    -webkit-overflow-scrolling: touch !important;
+    overflow: scroll !important;
+}
+</style>
